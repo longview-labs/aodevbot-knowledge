@@ -168,5 +168,11 @@
     "headline": "Browser extension and mobile wallet for Arweave and AO",
     "definition": "Wander (formerly ArConnect) is a non-custodial Arweave and AO native wallet with extensive features. It's available as a browser extension and mobile app.",
     "link": "https://wander.app/"
+  },
+  {
+    "term": "Autonomous Finance",
+    "headline": "A DeFi organization focused on agentic finance on AO",
+    "definition": "Autonomous Finance is an organization building out DeFi products and infrastructure on AO. Their products include Botega and Dexi.",
+    "link": "https://autonomous.finance"
   }
 ]
