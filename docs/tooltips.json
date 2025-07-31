@@ -82,7 +82,7 @@
   {
     "term": "Beacon Wallet",
     "headline": "Beacon is a native iOS mobile wallet for AO and Arweave",
-    "definition": "Beacon includes features such as 2FA, multi-sigs, built-in app integrations, and social recovery.",
+    "definition": "Beacon is a non-custodial Arweave and AO native wallet that includes features such as 2FA, multi-sigs, built-in app integrations, and social recovery.",
     "link": "https://beaconwallet.app"
   },
   {
