@@ -174,5 +174,23 @@
     "headline": "A DeFi organization focused on agentic finance on AO",
     "definition": "Autonomous Finance is an organization building out DeFi products and infrastructure on AO. Their products include Botega and Dexi.",
     "link": "https://autonomous.finance"
-  }
+  },
+  {
+    "term": "Arweave Explorer",
+    "headline": "An ArNS data explorer",
+    "definition": "explorer.arweave.net is not an Arweave block explorer, but rather an ArNS-powered data explorer for Arweave, built on AR.IO and Wayfinder.",
+    "link": "https://explorer.arweave.net"
+  },
+  {
+	  "term": "Permaweb Index",
+	  "headline": "The Permaweb Index ($PI) is a unifying token for the Permaweb",
+	  "definition": "The Permaweb Index ($PI) is a token which represents 1/3 Arweave (AR), 1/3 AO, and 1/3 projects building on the Permaweb. \nIt acts as a single token to gain exposure to the entire Permaweb ecosystem, and users can allocate their yield to specified Permaweb projects. \nNot financial advice.",
+	  "link": "https://ao.arweave.net/#/delegate"
+  },
+  {
+    "term": "ArFleet",
+    "headline": "ArFleet is a temporary storage platform on AO",
+    "definition": "ArFleet is a temporary or time-based storage platform built on AO. ArFleet is currently in testnet, and can be accessed with an ArFleet Genesis Pass.",
+    "link": "https://arfleet.arweave.net"
+  },
 ]
