@@ -43,5 +43,19 @@
     "question": "How can I handle authentication in my AO application?",
     "answer": "Authentication in AO applications works differently than traditional web apps since AO processes are decentralized and don't have built-in user sessions. Here are the main approaches:\n\n**Wallet-Based Authentication**\n\nThe most common pattern is using Arweave wallet addresses as user identities. Every message sent to an AO process includes a From field containing the sender's wallet address:\n\n```lua\nHandlers.add(\"protected-action\",\n  { Action = \"SecretOperation\" },\n  function(msg)\n    local userAddress = msg.From\n    -- userAddress is cryptographically verified by the network\n    if authorizedUsers[userAddress] then\n      -- Perform protected operation\n    else\n      msg.reply({ Data = \"Unauthorized\" })\n    end\n  end\n)\n```\n\n**Web Interface Authentication**\n\nOn the frontend, connect to user wallets:\n\n```javascript\n// Connect wallet\nawait window.arweaveWallet.connect(['ACCESS_ADDRESS', 'SIGN_TRANSACTION']);\nconst userAddress = await window.arweaveWallet.getActiveAddress();\n\n// Send authenticated message\nconst signer = createDataItemSigner(window.arweaveWallet);\nawait message({\n  process: processId,\n  signer, // This ensures msg.From is the user's address\n  tags: [{ name: 'Action', value: 'UserAction' }]\n});\n```\n\nWallet addresses work across all AO applications, and messages are signed and verified by the AO network.",
     "tags": ["ao", "authentication", "wallet", "arweave"]
+  },
+  {
+  "question": "What are some real-world examples of AO applications?",
+  "answer": [
+  "Here are a few practical use cases alongside real applications built with AO:",
+  "- DeFi applications → [LiquidOps](https://liquidops.io/), an overcollateralized lending and borrowing platform",
+  "- Deterministic GPU computing → [Apus Network](https://www.apus.network/), a decentralized, trustless GPU network dedicated to empowering verifiable deAI inference",
+  "- Atomic assets marketplaces → [Bazar](https://bazar.arweave.net/), a decentralized atomic asset exchange built on the permaweb",
+  "- Onchain gaming → [StarGrid Battle Tactics](https://stargrid.ar.io/), a turn-based strategy game with all elements stored onchain",
+  "- Onchain community environments → [Subspace](https://subspace.ar.io/#/), a decentralized chatroom",
+  "- Autonomous trading agents → [Botega](https://botega.arweave.net/#/swap), a DeFi platform capable of executing advanced order types through autonomous agent systems",
+  "These are just a few different examples of how AO supports scalable and decentralized message-driven applications, supported by Arweave’s permanent storage layer.",
+  ],
+  "tags": ["AI", "DeFi", "application", "agent"]
   }
 ]
