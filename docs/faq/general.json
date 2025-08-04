@@ -45,17 +45,53 @@
     "tags": ["ao", "authentication", "wallet", "arweave"]
   },
   {
+	  "question": "How does Arweave mining work?",
+	  "answer": "Arweave uses a unique Proof-of-Access (PoA) consensus mechanism designed to support its long-term storage and data replication goals, rather than simply traditional blockchain transactions. More specifically, the consensus mechanism is called Succinct Proofs of Random Access (SPoRA). \nInstead of competing on computing power, like in Bitcoin, in the block production process on Arweave a challenge is created by the protocol which requires miners to prove they are storing a random chunk of historical data. \nMiners are not required to store the entire blockweave, however the more data stored leads to quicker access to historical data. This creates a structure where miners are incentivised to store as much data uploaded to Arweave as possible, in order to increase their chances of leading new blocks and earning block rewards. \nBlock rewards are denominated in Arweave tokens ($AR), and released in accordance with Arweave’s emission structure. They are also supported by the endowment fund (if needed).",
+	  "tags": ["arweave", "protocol", "mining", "$AR"]
+  },
+  {
+	  "question": "How does the Arweave endowment fund work?",
+	  "answer": "When users upload data to Arweave, they pay upfront for 200 years of storage (based on current calculations of storage prices). \nThe calculated price is a **highly conservative estimate,** meaning data storage is likely to last a lot longer than 200 years. The transaction price is split between two parties: a small, instant fee paid to the miner, and the remaining amount goes into Arweave’s **endowment fund**. \n If for any reason in the future mining becomes unprofitable, tokens from the endowment fund will be released to miners in order to ensure the network’s stability. The endowment fund is yet to be utilized, and currently holds over 250,000 $AR (you can check the up-to-date figures on [ViewBlock](https://viewblock.io/arweave/stat/cumulativeEndowmentSize)).",
+	  "tags": ["arweave", "protocol", "endowment", "storage"]
+  },
+  {
+	  "question": "How can I get $AR tokens?",
+	  "answer": "$AR tokens are used as block reward emissions on Arweave. Miners contributing their storage to the network can earn $AR. For a full mining guide, check out the official documentation [here](https://docs.arweave.org/developers/mining/mining-guide). \n$AR tokens are also available on most major exchanges, and users should follow the the rules and regulations in their region before attempting to acquire $AR tokens. This doesn’t constitute financial advice. Seek professional advice where appropriate. \nSome teams in the ecosystem, such as Wander, are working on new and innovative methods for users to contribute the unused storage of their devices to Arweave.",
+	  "tags": ["arweave", "$AR"]
+  },
+  {
+	  "question": "How can I get $AO tokens?",
+	  "answer": "The only ways for users to earn $AO emissions is by either holding Arweave tokens ($AR), or by bridging specified assets to AO. The currently supported assets include $stETH, $DAI, and $USDS. \nUsers should ensure to follow the rules and regulations in their respective regions related to $AO, and this doesn’t constitute financial advice. Seek professional advice where appropriate.",
+	  "tags": ["ao", "$AO", "tokens"]
+  },
+  {
+	  "question": "How do I send data from my AO process to the frontend?",
+	  "answer": "Here's how data flows between your AO process and frontend:\n\n**1. In the AO Process:**\n\n**JSON Serialization**: Use the json module to convert Lua tables to JSON strings that can be sent to the frontend.\n\n```lua\nlocal json = require(\"json\")\ntags.Data = json.encode(data)\n```\n\n**Message Handlers**: Create handlers that respond to specific actions requested by the frontend.\n\n```lua\nHandlers.add(\"GetUsers\", Handlers.utils.hasMatchingTag(\"Action\", \"GetUsers\"), function(msg)\n  -- Process request and send response\nend)\n```\n\nYou can use a helper function like sendReply() to ensure consistent response formatting.\n\nIt's also important to include appropriate tags like Content-Type: application/json to help the frontend process the data correctly.\n\n**2. In the Frontend:**\n\n**Message Function**: Use the message() function from @permaweb/aoconnect to send requests to your AO process.\n\n```javascript\nconst msg = await message({\n  process: processId,\n  tags: [{ name: 'Action', value: action }],\n  wallet: window.arweaveWallet\n});\n```\n\n**Result Function**: Use the result() function to get the response from your AO process.\n\n```javascript\nconst res = await result({\n  message: msgId,\n  process: processId\n});\n```\n\n**JSON Parsing**: Parse the JSON data received from the AO process.\n\n```javascript\nconst data = JSON.parse(res.Data);\n```\n\n**3. Communication Patterns:**\n\n* **Request-Response**: The frontend sends a request with a specific action, and the AO process responds with the requested data.\n* **Action Tags**: Use the Action tag to specify what operation the frontend wants the AO process to perform.\n* **Data Formatting**: Structure your data in a way that's easy to work with in both Lua (AO) and JavaScript (frontend).\n\nOnly send the data that's needed to minimize transfer size. Be mindful of what data you expose and who can access it.\n\n These allow you to leverage the power of AO processes while providing a smooth user experience through the frontend interface.",
+	  "tags": ["ao", "frontend", "data", "communication", "json"]
+  },
+  {
+	  "question": "How can I set up a CRON job on AO?",
+	  "answer": "CRON jobs in AO allow you to execute code at specified intervals, enabling automated tasks and scheduled operations. Here's how you can set up a CRON job on AO:\n\n**1. Spawning the Process with a CRON Timer**\n\nFirst, you need to spawn your AO process with the --cron flag, specifying the interval. You can do this using the aos command-line tool. For example, to create a process that receives a CRON message every 10 seconds, you would run:\n\n```bash\naos your-process-name --cron 10-seconds\n```\n\nThis command spawns your process and tells the network to send a message with the tag Action: \"Cron\" to it at the specified interval.\n\n**2. Handling CRON Messages in Your Process**\n\nNext, you need to add a handler in your AO process to listen for and act on these CRON messages.\n\nTo handle CRON messages, you need to set up a Handler in your process with the tag Action, and value Cron.\n\n```lua\nHandlers.add(\n  \"CronTick\", -- Handler name\n  Handlers.utils.hasMatchingTag(\"Action\", \"Cron\"), -- Handler pattern to identify cron message\n  function () -- Handler task to execute on cron message\n    -- Do something\n  end\n)\n```\n\n**3. Monitoring CRON Jobs**\n\nTo initiate the subscription service for CRON messages, you must monitor your process. To initiate this you can call .monitor in aos, or via the @aoconnect library:\n\n```javascript\nimport { readFileSync } from \"node:fs\";\nimport { createDataItemSigner, monitor } from \"@permaweb/aoconnect\";\n\nconst wallet = JSON.parse(\n  readFileSync(\"/path/to/arweave/wallet.json\").toString(),\n);\n\nconst result = await monitor({\n  process: \"process-id\",\n  signer: createDataItemSigner(wallet),\n});\n```\n\nCRON jobs can be stopped by calling unmonitor. If the process receives a message, the CRON job will restart itself.\n\nThis setup provides a complete solution for creating and monitoring autonomous tasks within the AO ecosystem.",
+	  "tags": ["ao", "cron", "scheduling", "automation", "monitoring"]
+  },
+  {
+    "question": "What is the $AO token?",
+    "answer": "$AO is the native token of AO Computer, a decentralized compute platform built on top of Arweave. Although computation on AO is currently subsidised, $AO will eventually be used to pay for compute costs and attestations from AO nodes. \n$AO also aims to incentivize and secure decentralized computing on AO Computer, and currently is distributed to $AR holders and users which have bridged specified assets to AO. Not financial advice.",
+    "tags": ["$AO", "token", "crypto"]
+  },
+  {
+    "question": "Is AO free to use? Who pays for computation?",
+    "answer": "Computation on AO is currently subsidized, but generally speaking, computation on the AO network will require payment in the form of “compute units”, which are consumed when processes execute messages. \nAs AO nodes move from Legacynet to HyperBEAM, these costs will, for the most part, be paid for by the end user using $AO. \nAO’s computational message log is also stored on top of Arweave, which requires costs for storage, but typical interactions with smart contracts are so small in size they don’t incur any costs for the end user.",
+    "tags": ["$AO", "crypto", "cost"]
+  },
+  {
+    "question": "What is a fair launch token?",
+    "answer": "On AO, “fair launch” refers to tokens released to the general public, with no pre-sale available to investors or private companies. \n$AO itself is considered a “fair launch” token, with tokenomics modelled after Bitcoin, and the option for anyone holding $AR or bridging assets to earn $AO emissions. \nUsers can also delegate their tokens to projects built on AO independently, or by proxy through the Permaweb Index ($PI). \nNot financial advice.",
+    "tags": ["ao", "fair launch", "token"]
+  },
+  {
   "question": "What are some real-world examples of AO applications?",
-  "answer": [
-  "Here are a few practical use cases alongside real applications built with AO:",
-  "- DeFi applications → [LiquidOps](https://liquidops.io/), an overcollateralized lending and borrowing platform",
-  "- Deterministic GPU computing → [Apus Network](https://www.apus.network/), a decentralized, trustless GPU network dedicated to empowering verifiable deAI inference",
-  "- Atomic assets marketplaces → [Bazar](https://bazar.arweave.net/), a decentralized atomic asset exchange built on the permaweb",
-  "- Onchain gaming → [StarGrid Battle Tactics](https://stargrid.ar.io/), a turn-based strategy game with all elements stored onchain",
-  "- Onchain community environments → [Subspace](https://subspace.ar.io/#/), a decentralized chatroom",
-  "- Autonomous trading agents → [Botega](https://botega.arweave.net/#/swap), a DeFi platform capable of executing advanced order types through autonomous agent systems",
-  "These are just a few different examples of how AO supports scalable and decentralized message-driven applications, supported by Arweave’s permanent storage layer.",
-  ],
+  "answer": "Here are a few practical use cases alongside real applications built with AO:\n\n- DeFi applications → [LiquidOps](https://liquidops.io/), an overcollateralized lending and borrowing platform\n\n- Deterministic GPU computing → [Apus Network](https://www.apus.network/), a decentralized, trustless GPU network dedicated to empowering verifiable deAI inference\n\n- Atomic assets marketplaces → [Bazar](https://bazar.arweave.net/), a decentralized atomic asset exchange built on the permaweb\n\n- Onchain gaming → [StarGrid Battle Tactics](https://stargrid.ar.io/), a turn-based strategy game with all elements stored onchain\n\n- Onchain community environments → [Subspace](https://subspace.ar.io/#/), a decentralized chatroom\n\n- Autonomous trading agents → [Botega](https://botega.arweave.net/#/swap), a DeFi platform capable of executing advanced order types through autonomous agent systems\n\nThese are just a few different examples of how AO supports scalable and decentralized message-driven applications, supported by Arweave’s permanent storage layer.",
   "tags": ["AI", "DeFi", "application", "agent"]
   }
 ]
