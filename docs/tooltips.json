@@ -194,13 +194,13 @@
     "link": "https://arfleet.arweave.net"
   },
   {
-  "term": "Permanent Storage",
-  "headline": "Arweave provides decentralized, tamper-proof data storage where files are stored permanently onchain.",
-  "definition": "This is made possible through an endowment model, where a single upfront fee covers storage costs for at least 200 years, with no need for renewals or ongoing payments.",
+    "term": "Permanent Storage",
+    "headline": "Arweave provides decentralized, tamper-proof data storage where files are stored permanently onchain.",
+    "definition": "This is made possible through an endowment model, where a single upfront fee covers storage costs for at least 200 years, with no need for renewals or ongoing payments."
   },
   {
-  "term": "Blockweave",
-  "headline": "The Blockweave is Arweave’s unique way of storing data, operating more like a web than a chain.",
-  "definition": "It checks random pieces instead of everything in order, saving energy and letting it store huge amounts of info safely and efficiently.",
+    "term": "Blockweave",
+    "headline": "The Blockweave is Arweave’s unique way of storing data, operating more like a web than a chain.",
+    "definition": "It checks random pieces instead of everything in order, saving energy and letting it store huge amounts of info safely and efficiently."
   }
 ]
