@@ -94,4 +94,95 @@
     "answer": "Here are a few practical use cases alongside real applications built with AO:\n\n- DeFi applications → [LiquidOps](https://liquidops.io/), an overcollateralized lending and borrowing platform\n\n- Deterministic GPU computing → [Apus Network](https://www.apus.network/), a decentralized, trustless GPU network dedicated to empowering verifiable deAI inference\n\n- Atomic assets marketplaces → [Bazar](https://bazar.arweave.net/), a decentralized atomic asset exchange built on the permaweb\n\n- Onchain gaming → [StarGrid Battle Tactics](https://stargrid.ar.io/), a turn-based strategy game with all elements stored onchain\n\n- Onchain community environments → [Subspace](https://subspace.ar.io/#/), a decentralized chatroom\n\n- Autonomous trading agents → [Botega](https://botega.arweave.net/#/swap), a DeFi platform capable of executing advanced order types through autonomous agent systems\n\nThese are just a few different examples of how AO supports scalable and decentralized message-driven applications, supported by Arweave’s permanent storage layer.",
     "tags": ["AI", "DeFi", "application", "agent"]
   }
+{"question": "How can I bridge to AO?",
+"answer": "Go to https://ao.arweave.net and navigate to the “MINT” tab. You will see options to bridge stETH (staked ETH), $DAI, and USDS. When you bridge, you receive $AO. You will see the projected calcuation of how much $AO you can receive based on the assets you bridge. You will need an Ethereum wallet to do so. Also, this is not financial or investment advice.",
+"tags": ["bridge", "ao", "bridging"]
+},
+
+ {
+    "question": "How do payments work on AO?",
+    "answer": "Payments allow users to prioritize computation and reward node operators. When accessing AO through a relay node, you must send a small amount of $AO to the relayer address. This enables fast, guaranteed message execution on the AO network.",
+    "tags": ["payments", "compute", "relay"]
+  },
+  {
+    "question": "Can I run my own AO node?",
+    "answer": "Yes. You can run an AO node using HyperBEAM. You’ll need Erlang, Node.js, and optionally a Trusted Execution Environment (TEE) like AMD SEV-SNP. Node operators earn $AO tokens from users who pay to execute computation through their node.",
+    "tags": ["nodes", "hyperbeam", "run"]
+  },
+  {
+    "question": "Is AO a blockchain?",
+    "answer": "No. AO is not a blockchain. It’s a decentralized computer that runs computations using independent processes and message passing instead of global consensus. However, it uses cryptographic tools like hashpaths and HTTP signed messages to verify computation.",
+    "tags": ["ao", "blockchain", "consensus"]
+  },
+  {
+    "question": "What are AO devices?",
+    "answer": "Devices are modular execution units in AO. Each device defines a way to interpret and process messages. Examples include ~wasm64@1.0 for running WebAssembly, ~relay@1.0 for networking, and ~meta@1.0 for configuring nodes. Devices make AO highly flexible and composable.",
+    "tags": ["devices", "execution", "ao"]
+  },
+  {
+    "question": "What is a Trusted Execution Environment (TEE) on AO?",
+    "answer": "A TEE is a secure hardware zone where computations can run privately and verifiably. AO supports TEE execution to allow nodes to prove that they are executing code correctly, even on untrusted hardware. The first supported TEE is AMD SEV-SNP.",
+    "tags": ["TEE", "security", "ao"]
+  },
+  {
+    "question": "How is AO different from smart contract platforms?",
+    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web.",
+    "tags": ["smart contracts", "comparison", "architecture"]
+  },
+  {
+    "question": "What programming languages can I use with AO?",
+    "answer": "You can use any language that compiles to WebAssembly (WASM), such as Rust, C, and C++. AO also supports JSON-encoded messages, and devices like ~compute-lite@1.0 can run lightweight AO programs written for earlier versions of the protocol.",
+    "tags": ["developer", "wasm", "languages"]
+  },
+  {
+    "question": "What are messages in AO?",
+    "answer": "Messages are the core unit of computation in AO. Every message contains data and instructions and may produce more messages when executed. They are passed between processes and devices, forming chains of computation similar to function calls in programming.",
+    "tags": ["messages", "core concepts", "ao"]
+  },
+  {
+    "question": "What is a process in AO?",
+    "answer": "A process is a persistent execution unit in AO that maintains its own state and hashpath. It can receive messages, return results, and be interacted with by multiple users. Processes are like smart contracts, but they run independently and scale in parallel.",
+    "tags": ["process", "execution", "ao"]
+  },
+  {
+    "question": "What is a hashpath?",
+    "answer": "A hashpath is a cryptographic reference to the sequence of inputs that define a process’s state. It acts like a Merkle proof and allows anyone to verify the state of a process without trusting the node that ran it. This is how AO verifies computation without global consensus.",
+    "tags": ["hashpath", "verification", "developer"]
+  },
+  {
+    "question": "How does AO handle state?",
+    "answer": "AO does not use a global state. Each process maintains its own local state through a sequence of messages and hashpaths. State transitions are verifiable and can be stored permanently on Arweave for auditability and persistence.",
+    "tags": ["state", "architecture", "ao"]
+  },
+  {
+    "question": "What is a relay in AO?",
+    "answer": "A relay is a node that allows users to access the AO network without running their own infrastructure. You send messages to a relay, which executes them on your behalf. You must pay a small fee in $AO to use relays. They’re essential for developer and app UX.",
+    "tags": ["relay", "network", "access"]
+  },
+  {
+    "question": "How do I test my AO app locally?",
+    "answer": "If you are using aoDevbot, we automatically deploy an AO process. You can see that in the lower left section of the preview of your app build. If you are building elsewhere, you can use https://wao.eco/ for rapid iteration on your local machine.",
+    "tags": ["developer", "testing"]
+  },
+ 
+  {
+    "question": "Can I deploy private or permissioned processes on AO?",
+    "answer": "Yes. Using a Trusted Execution Environment (TEE), you can create processes that validate and execute privately. You can also use devices like ~faff@1.0 to restrict access to specific wallets.",
+    "tags": ["privacy", "permissions", "TEE"]
+  },
+  {
+    "question": "Does AO have consensus?",
+    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination.",
+    "tags": ["consensus", "verification", "architecture"]
+  },
+  {
+    "question": "What is the role of Arweave in AO?",
+    "answer": "Arweave provides permanent storage for AO. It stores program inputs, outputs, and state history. This makes every AO computation auditable and persistent without relying on centralized storage.",
+    "tags": ["arweave", "storage", "persistence"]
+  },
+  {
+    "question": "How do AO smart contracts wake themselves up?",
+    "answer": "AO supports self-waking contracts. You can schedule future execution by setting timers or triggers within processes. These are especially useful for AI agents or time-sensitive logic.",
+    "tags": ["cron", "self-wake", "automation"]
+  }
 ]
