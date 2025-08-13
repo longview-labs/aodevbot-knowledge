@@ -61,7 +61,7 @@
   },
   {
 	  "question": "How can I get $AO tokens?",
-	  "answer": "The only ways for users to earn $AO emissions is by either holding Arweave tokens ($AR), or by bridging specified assets to AO. The currently supported assets include $stETH, $DAI, and $USDS. \nUsers should ensure to follow the rules and regulations in their respective regions related to $AO, and this doesn’t constitute financial advice. Seek professional advice where appropriate.",
+	  "answer": "The only ways for users to earn $AO emissions is by either holding Arweave tokens ($AR), or by bridging specified assets to AO. The currently supported assets include $stETH, $DAI, and $USDS. \nUsers should ensure to follow the rules and regulations in their respective regions related to $AO, and this doesn’t constitute financial advice. Seek professional advice where appropriate. ![How to earn $AO](https://arweave.net/_BNB2JkiNKZEu3Lgdb50VQPLHEk6hPuEnNM3xl31cXo)",
 	  "tags": ["ao", "$AO", "tokens"]
   },
   {
@@ -131,7 +131,7 @@
   },
   {
     "question": "What programming languages can I use with AO?",
-    "answer": "You can use any language that compiles to WebAssembly (WASM), such as Rust, C, and C++. AO also supports JSON-encoded messages, and devices like ~compute-lite@1.0 can run lightweight AO programs written for earlier versions of the protocol.",
+    "answer": "You can use any language that compiles to WebAssembly (WASM), such as Rust, C, and C++. AO also supports JSON-encoded messages, and devices like ~compute-lite@1.0 can run lightweight AO programs written for earlier versions of the protocol. ![Compile anywhere](https://arweave.net/uOkv_UaLzfBKOOpqiK0RRyTIOURId3Fb3PMQXSdvZCY)",
     "tags": ["developer", "wasm", "languages"]
   },
   {
@@ -177,7 +177,7 @@
   },
   {
     "question": "What is the role of Arweave in AO?",
-    "answer": "Arweave provides permanent storage for AO. It stores program inputs, outputs, and state history. This makes every AO computation auditable and persistent without relying on centralized storage.",
+    "answer": "Arweave provides permanent storage for AO. It stores program inputs, outputs, and state history. This makes every AO computation auditable and persistent without relying on centralized storage. ![The AO/Arweave Flywheel](https://arweave.net/-6RWQcEnBDezuox9GmY2raJ22c2iRCaKK2HFoOC31ZQ)",
     "tags": ["arweave", "storage", "persistence"]
   },
   {
