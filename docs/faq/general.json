@@ -1,7 +1,7 @@
 [
   {
     "question": "What is AO?",
-    "answer": "AO is a decentralized computer network built on top of Arweave that enables developers to create scalable, permanent applications.",
+    "answer": "AO is a decentralized computer network built on top of Arweave that enables developers to create scalable, permanent applications. ![AO and Arweave comparison](https://arweave.net/MBLMe0Bt-cNfQKUe9b4OfMQCpsLHuF4z6crkdGxtlio)",
     "tags": ["ao", "arweave", "general"]
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "question": "What is Arweave?",
-    "answer": "Arweave is a blockchain-like protocol designed for permanent data storage. It allows users to store data indefinitely by incentivizing miners to maintain the network.",
+    "answer": "Arweave is a blockchain-like protocol designed for permanent data storage. It allows users to store data indefinitely by incentivizing miners to maintain the network. ![AO and Arweave comparison](https://arweave.net/MBLMe0Bt-cNfQKUe9b4OfMQCpsLHuF4z6crkdGxtlio)",
     "tags": ["arweave", "blockchain", "storage"]
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "question": "What is the $AO token?",
-    "answer": "$AO is the native token of AO Computer, a decentralized compute platform built on top of Arweave. Although computation on AO is currently subsidised, $AO will eventually be used to pay for compute costs and attestations from AO nodes. \n$AO also aims to incentivize and secure decentralized computing on AO Computer, and currently is distributed to $AR holders and users which have bridged specified assets to AO. Not financial advice.",
+    "answer": "$AO is the native token of AO Computer, a decentralized compute platform built on top of Arweave. Although computation on AO is currently subsidised, $AO will eventually be used to pay for compute costs and attestations from AO nodes. \n$AO also aims to incentivize and secure decentralized computing on AO Computer, and currently is distributed to $AR holders and users which have bridged specified assets to AO. Not financial advice. [Video](https://video.twimg.com/amplify_video/1915487034493251585/vid/avc1/1920x1080/e-1POl7skqaA_6PA.mp4?tag=16)",
     "tags": ["$AO", "token", "crypto"]
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "question": "What is a fair launch token?",
-    "answer": "On AO, “fair launch” refers to tokens released to the general public, with no pre-sale available to investors or private companies. \n$AO itself is considered a “fair launch” token, with tokenomics modelled after Bitcoin, and the option for anyone holding $AR or bridging assets to earn $AO emissions. \nUsers can also delegate their tokens to projects built on AO independently, or by proxy through the Permaweb Index ($PI). \nNot financial advice.",
+    "answer": "On AO, “fair launch” refers to tokens released to the general public, with no pre-sale available to investors or private companies. \n$AO itself is considered a “fair launch” token, with tokenomics modelled after Bitcoin, and the option for anyone holding $AR or bridging assets to earn $AO emissions. \nUsers can also delegate their tokens to projects built on AO independently, or by proxy through the Permaweb Index ($PI). \nNot financial advice. [Video](https://video.twimg.com/ext_tw_video/1904471841915523072/pu/vid/avc1/1280x720/ZKxlBi8IWadLqQZo.mp4?tag=12)",
     "tags": ["ao", "fair launch", "token"]
   },
   {
@@ -121,12 +121,12 @@
   },
   {
     "question": "What is a Trusted Execution Environment (TEE) on AO?",
-    "answer": "A TEE is a secure hardware zone where computations can run privately and verifiably. AO supports TEE execution to allow nodes to prove that they are executing code correctly, even on untrusted hardware. The first supported TEE is AMD SEV-SNP.",
+    "answer": "A TEE is a secure hardware zone where computations can run privately and verifiably. AO supports TEE execution to allow nodes to prove that they are executing code correctly, even on untrusted hardware. The first supported TEE is AMD SEV-SNP. [Video](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
     "tags": ["TEE", "security", "ao"]
   },
   {
     "question": "How is AO different from smart contract platforms?",
-    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web.",
+    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web. [Video](https://drive.google.com/file/d/14-f77MKjyXYPBf1vGJ4rE3cH1ByPPYal/view)",
     "tags": ["smart contracts", "comparison", "architecture"]
   },
   {
@@ -136,7 +136,7 @@
   },
   {
     "question": "What are messages in AO?",
-    "answer": "Messages are the core unit of computation in AO. Every message contains data and instructions and may produce more messages when executed. They are passed between processes and devices, forming chains of computation similar to function calls in programming.",
+    "answer": "Messages are the core unit of computation in AO. Every message contains data and instructions and may produce more messages when executed. They are passed between processes and devices, forming chains of computation similar to function calls in programming. [Video](https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4)",
     "tags": ["messages", "core concepts", "ao"]
   },
   {
@@ -172,7 +172,7 @@
   },
   {
     "question": "Does AO have consensus?",
-    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination.",
+    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination. [Video](https://drive.google.com/file/d/1RlIqK4D4op0k9MnajkcIMcjZByoAHkth/view)",
     "tags": ["consensus", "verification", "architecture"]
   },
   {
