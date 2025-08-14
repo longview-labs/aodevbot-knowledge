@@ -184,5 +184,10 @@
     "question": "How do AO smart contracts wake themselves up?",
     "answer": "AO supports self-waking contracts. You can schedule future execution by setting timers or triggers within processes. These are especially useful for AI agents or time-sensitive logic.",
     "tags": ["cron", "self-wake", "automation"]
+  },
+  {
+	"question": "How long is data stored on Arweave?",
+	"answer": "Data on Arweave is stored permanently, with a one-time payment covering about 200 years. This timeframe is expected to increase as storage costs decrease. Miners worldwide maintain copies, supported by an endowment fund that ensures ongoing storage even when costs are high.",
+	"tags": ["arweave", "storage", "endowment"]
   }
 ]
