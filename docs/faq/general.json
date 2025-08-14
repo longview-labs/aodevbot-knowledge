@@ -186,8 +186,8 @@
     "tags": ["cron", "self-wake", "automation"]
   },
   {
-"question": "How long is data stored on Arweave?",
-"answer": "Data on Arweave is stored permanently, with a one-time payment covering about 200 years. This timeframe is expected to increase as storage costs decrease. Miners worldwide maintain copies, supported by an endowment fund that ensures ongoing storage even when costs are high.",
-"tags": ["arweave", "storage", "endowment"]
-  },
+	"question": "How long is data stored on Arweave?",
+	"answer": "Data on Arweave is stored permanently, with a one-time payment covering about 200 years. This timeframe is expected to increase as storage costs decrease. Miners worldwide maintain copies, supported by an endowment fund that ensures ongoing storage even when costs are high.",
+	"tags": ["arweave", "storage", "endowment"]
+  }
 ]
