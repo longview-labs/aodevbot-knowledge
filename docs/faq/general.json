@@ -196,7 +196,7 @@
   },
   {
 	"question": "What are Atomic Assets?",
-	"answer": "Atomic Assets are NFTs (Non-Fungible Tokens) built on Arweave that store both the asset and its metadata permanently onchain. Unlike traditional NFTs where metadata might be stored separately, Atomic Assets keep everything together in a single, immutable transaction. \n\n These assets can be traded on marketplaces like Bazar, which is specifically built for Atomic Assets on AO. Bazar functions as both a marketplace and a launchpad for new NFT projects. \n\n The "atomic" nature refers to how the asset data, metadata, and ownership information are bundled together atomically - meaning they're inseparable and stored permanently on Arweave. ![The Place for Creators](https://arweave.net/QKLRiHAREKs9ezhGj_Xbkbwt35wvTeKdbeGr_RClJRg)",
+	"answer": "Atomic Assets are NFTs (Non-Fungible Tokens) built on Arweave that store both the asset and its metadata permanently onchain. Unlike traditional NFTs where metadata might be stored separately, Atomic Assets keep everything together in a single, immutable transaction. \n\n These assets can be traded on marketplaces like Bazar, which is specifically built for Atomic Assets on AO. Bazar functions as both a marketplace and a launchpad for new NFT projects. \n\n The \"atomic\" nature refers to how the asset data, metadata, and ownership information are bundled together atomically - meaning they're inseparable and stored permanently on Arweave. ![The Place for Creators](https://arweave.net/QKLRiHAREKs9ezhGj_Xbkbwt35wvTeKdbeGr_RClJRg)",
 	"tags": ["atomic asset", "nft", "Bazar"]
   }
 ]
