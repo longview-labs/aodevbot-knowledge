@@ -126,7 +126,7 @@
   },
   {
     "question": "How is AO different from smart contract platforms?",
-    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web. [Video](https://drive.google.com/file/d/14-f77MKjyXYPBf1vGJ4rE3cH1ByPPYal/view)",
+    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web. [Video](https://video.twimg.com/amplify_video/1949907452377649153/vid/avc1/1920x1080/JYdWBo8BlQys-Iy9.mp4)",
     "tags": ["smart contracts", "comparison", "architecture"]
   },
   {
@@ -172,7 +172,7 @@
   },
   {
     "question": "Does AO have consensus?",
-    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination. [Video](https://drive.google.com/file/d/1RlIqK4D4op0k9MnajkcIMcjZByoAHkth/view)",
+    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination. [Video](https://video.twimg.com/amplify_video/1952453125929123840/vid/avc1/1280x720/d8SEP-FV0R2uF3cI.mp4?tag=14)",
     "tags": ["consensus", "verification", "architecture"]
   },
   {
