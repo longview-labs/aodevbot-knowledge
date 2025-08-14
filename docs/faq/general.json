@@ -111,7 +111,7 @@
   },
   {
     "question": "Is AO a blockchain?",
-    "answer": "No. AO is not a blockchain. It’s a decentralized computer that runs computations using independent processes and message passing instead of global consensus. However, it uses cryptographic tools like hashpaths and HTTP signed messages to verify computation.",
+    "answer": "No. AO is not a blockchain. It’s a decentralized computer that runs computations using independent processes and message passing instead of global consensus. However, it uses cryptographic tools like hashpaths and HTTP signed messages to verify computation. [Video](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
     "tags": ["ao", "blockchain", "consensus"]
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "question": "What is a process in AO?",
-    "answer": "A process is a persistent execution unit in AO that maintains its own state and hashpath. It can receive messages, return results, and be interacted with by multiple users. Processes are like smart contracts, but they run independently and scale in parallel.",
+    "answer": "A process is a persistent execution unit in AO that maintains its own state and hashpath. It can receive messages, return results, and be interacted with by multiple users. Processes are like smart contracts, but they run independently and scale in parallel. [Video](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
     "tags": ["process", "execution", "ao"]
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "question": "How does AO handle state?",
-    "answer": "AO does not use a global state. Each process maintains its own local state through a sequence of messages and hashpaths. State transitions are verifiable and can be stored permanently on Arweave for auditability and persistence.",
+    "answer": "AO does not use a global state. Each process maintains its own local state through a sequence of messages and hashpaths. State transitions are verifiable and can be stored permanently on Arweave for auditability and persistence. [Video](https://video.twimg.com/amplify_video/1930640133902282752/vid/avc1/1280x720/KnwbT2Vyqh5jLMly.mp4?tag=14)",
     "tags": ["state", "architecture", "ao"]
   },
   {
@@ -164,10 +164,9 @@
     "answer": "If you are using aoDevbot, we automatically deploy an AO process. You can see that in the lower left section of the preview of your app build. If you are building elsewhere, you can use https://wao.eco/ for rapid iteration on your local machine.",
     "tags": ["developer", "testing"]
   },
- 
   {
     "question": "Can I deploy private or permissioned processes on AO?",
-    "answer": "Yes. Using a Trusted Execution Environment (TEE), you can create processes that validate and execute privately. You can also use devices like ~faff@1.0 to restrict access to specific wallets.",
+    "answer": "Yes. Using a Trusted Execution Environment (TEE), you can create processes that validate and execute privately. You can also use devices like ~faff@1.0 to restrict access to specific wallets. [Video](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
     "tags": ["privacy", "permissions", "TEE"]
   },
   {
