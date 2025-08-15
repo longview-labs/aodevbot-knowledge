@@ -116,7 +116,7 @@
   },
   {
     "question": "What are AO devices?",
-    "answer": "Devices are modular execution units in AO. Each device defines a way to interpret and process messages. Examples include ~wasm64@1.0 for running WebAssembly, ~relay@1.0 for networking, and ~meta@1.0 for configuring nodes. Devices make AO highly flexible and composable.",
+    "answer": "Devices are modular execution units in AO. Each device defines a way to interpret and process messages. Examples include ~wasm64@1.0 for running WebAssembly, ~relay@1.0 for networking, and ~meta@1.0 for configuring nodes. Devices make AO highly flexible and composable. [Video](https://video.twimg.com/amplify_video/1956022267932004352/vid/avc1/1920x1080/4aXZQPiTYxJYiwAA.mp4)",
     "tags": ["devices", "execution", "ao"]
   },
   {
