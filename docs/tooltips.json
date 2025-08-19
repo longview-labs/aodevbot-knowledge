@@ -228,7 +228,7 @@
   {
     "term": "Bundler",
     "headline": "A service for aggregating data uploads",
-    "definition": "A bundler batches multiple uploads into a single Arweave transaction to improve efficiency. Bundling relies upon the ANS-104 standard.",
+    "definition": "A bundler batches multiple uploads into a single Arweave transaction to improve efficiency. Bundling relies upon the ANS-104 standard."
   },
   {
     "term": "Arweave Network Standard",
