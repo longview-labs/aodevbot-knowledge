@@ -224,5 +224,64 @@
     "term": "Bridge",
     "headline": "A bridge is a system that enables the transfer of assets from one blockchain ecosystem to another.",
     "definition": "In the case of AO Computer, users may wish to bridge Arweave's native coin $AR to AO, or perform other cross-chain transfers with assets such as stETH, DAI, or USDS from Ethereum."
+  },
+  {
+    "term": "Bundler",
+    "headline": "A service for aggregating data uploads",
+    "definition": "A bundler batches multiple uploads into a single Arweave transaction to improve efficiency. Bundling relies upon the ANS-104 standard.",
+  },
+  {
+    "term": "Arweave Network Standard",
+    "headline": "Agreed-upon rules for building on Arweave",
+    "definition": "Arweave Network Standards (ANS) define common formats, protocols, and conventions for storing and interacting with data on Arweave. Each standard is numbered, like ANS-###, and helps ensure compatibility across apps and tools.",
+    "link": "https://github.com/ArweaveTeam/arweave-standards/tree/master/ans"
+  },
+  {
+    "term": "ANS-104",
+    "headline": "Standard for bundling multiple data items into one transaction",
+    "definition": "ANS-104 defines how to combine multiple independently signed data items into a single Arweave transaction—making uploads more efficient and scalable.",
+    "link": "https://github.com/ArweaveTeam/arweave-standards/blob/master/ans/ANS-104.md"
+  },
+  {
+    "term": "Arweave Name Token",
+    "headline": "A token that controls an ArNS name on AO",
+    "definition": "Each Arweave Name Token (ANT) is linked to a registered ArNS name and lets the owner manage subdomains, update associated Arweave transaction IDs, transfer ownership, and perform other name-related functions.",
+    "link": "https://arns.ar.io/"
+  },
+  {
+    "term": "ANT",
+    "headline": "A token that controls an ArNS name on AO",
+    "definition": "Each ANT (short for Arweave Name Token) is linked to a registered ArNS name and lets the owner manage subdomains, update associated Arweave transaction IDs, transfer ownership, and perform other name-related functions.",
+    "link": "https://arns.ar.io/"
+  },
+  {
+    "term": "Weave",
+    "headline": "The collective data stored on the Arweave network",
+    "definition": "Weave refers to all the data permanently stored across Arweave's decentralized network, forming a single, immutable archive.",
+    "link": "https://viewblock.io/arweave/stat/cumulativeWeaveSize"
+  },
+  {
+    "term": "Gateway",
+    "headline": "Gateways connect users to the Arweave network",
+    "definition": "Gateways facilitate data hosting, domain management, and seamless querying on Arweave. Running a gateway helps secure the network and can earn rewards. Not financial advice.",
+    "link": "https://ar.io/gateways"
+  },
+  {
+    "term": "Universal Data License (UDL)",
+    "headline": "An onchain content license format",
+    "definition": "The Universal Data License (UDL) lets creators define how their permaweb files can be used or shared, right onchain.",
+    "link": "https://2hsfyi4t5fiqdcanybdez4e4admrjeqghts22viz7uuo3d5k2nna.arweave.net/0eRcI5PpUQGIDcBGTPCcANkUkgY85a1VGf0o7Y-q01o/#/en/Universal-Data-License-How-to-use-it#toc_License_Fee"
+  },
+  {
+    "term": "UDL",
+    "headline": "An onchain content license format",
+    "definition": "The UDL (short for Universal Data License) lets creators define how their permaweb files can be used or shared, right onchain.",
+    "link": "https://2hsfyi4t5fiqdcanybdez4e4admrjeqghts22viz7uuo3d5k2nna.arweave.net/0eRcI5PpUQGIDcBGTPCcANkUkgY85a1VGf0o7Y-q01o/#/en/Universal-Data-License-How-to-use-it#toc_License_Fee"
+  },
+  {
+    "term": "Kryder+ Rate",
+    "headline": "The rate used to estimate long-term storage costs on Arweave",
+    "definition": "The Kryder+ Rate is a modified calculation of how storage costs decline over time, factoring in replication, electricity, and hardware costs. It's used to predict how long Arweave's endowment fund can sustain storage, currently ensuring ~200 years of minimum storage.",
+    "link": "https://x.com/onlyarweave/status/1790381688041947527"
   }
 ]
