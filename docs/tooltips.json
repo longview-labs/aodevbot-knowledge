@@ -283,5 +283,77 @@
     "headline": "The rate used to estimate long-term storage costs on Arweave",
     "definition": "The Kryder+ Rate is a modified calculation of how storage costs decline over time, factoring in replication, electricity, and hardware costs. It's used to predict how long Arweave's endowment fund can sustain storage, currently ensuring ~200 years of minimum storage.",
     "link": "https://x.com/onlyarweave/status/1790381688041947527"
+  },
+  {
+  	"term": "Phil Mataras",
+  	"headline": "Founder of AR.IO and ArDrive, building permanent cloud infrastructure on Arweave",
+  	"definition": "Phil leads the development of AR.IO’s decentralized gateways, naming system, and bundled storage services, making permanent Arweave storage more accessible and scalable.",
+  	"link": "https://x.com/onlyarweave/status/1864323804199309366"
+  },
+  {
+	"term": "CryptoChèrie",
+	"headline": "Arweave educator and community builder empowering women on the Permaweb",
+	"definition": "CryptoChèrie created the popular DumDumz NFT collection, founded Women of Arweave and AO to amplify women in the ecosystem, and produces educational content to grow Arweave adoption.",
+	"link": "https://x.com/onlyarweave/status/1869469562330403055"
+  },
+  {
+  	"term": "Tate Berenbaum",
+  	"headline": "Founder & CEO of Community Labs, advancing the Arweave ecosystem",
+  	"definition": "Tate Berenbaum leads Community Labs, a venture studio focused on building decentralized applications and infrastructure on Arweave, supporting key projects and developer tools across the ecosystem.",
+  	"link": "https://x.com/onlyarweave/status/1856713668085547192"
+  },
+  {
+  	"term": "Marton Lederer",
+  	"headline": "Founder of Wander (formerly ArConnect) and co-founder of LiquidOps",
+  	"definition": "Marton Lederer built Wander, the first non-custodial Arweave wallet, and co-founded LiquidOps, a decentralized lending platform on Arweave.",
+  	"link": "https://x.com/onlyarweave/status/1877026420259709142"
+  },
+  {
+  	"term": "Lorimer Jenkins",
+  	"headline": "Co-founder and CEO of LiquidOps, pioneering DeFi on Arweave and AO",
+  	"definition": "Lorimer Jenkins leads LiquidOps, Arweave's first decentralized lending and borrowing protocol, enabling users to earn passive income by lending tokens on AO.",
+  	"link": "https://x.com/onlyarweave/status/1879579361629831329"
+  },
+  {
+  	"term": "Jonny Ringo",
+  	"headline": "AO Community Manager, supporting developers and users",
+  	"definition": "Jonny Ringo manages the AO community, fostering engagement, supporting developers, and helping users navigate the Arweave and AO ecosystem.",
+  	"link": "https://x.com/onlyarweave/status/1887875837145251910"
+  },
+  {
+  	"term": "MC Lars",
+  	"headline": "Community and Events Strategist at Permanent Data Solutions",
+  	"definition": "MC Lars organizes and leads community initiatives and events for Permanent Data Solutions, helping to grow engagement and support within the Arweave ecosystem.",
+  	"link": "https://x.com/onlyarweave/status/1892250577645760706"
+  },
+  {
+  	"term": "Nick Juliano",
+  	"headline": "Co-founder of Bazar, building decentralized marketplaces on Arweave",
+  	"definition": "Nick Juliano co-founded Bazar, a marketplace for atomic assets on Arweave, creating tools that empower creators to list, trade, and manage digital assets efficiently.",
+  	"link": "https://x.com/onlyarweave/status/1902353368636649909"
+  }, 
+  {
+  	"term": "Ankush Singh",
+  	"headline": "Founder of BetterIDEa and Arweave India Community Manager",
+  	"definition": "Ankush Singh leads BetterIDEa, helps manage the Arweave India community, and serves as Entrepreneur in Residence at Forward Research, supporting developers and ecosystem growth.",
+  	"link": "https://x.com/onlyarweave/status/1910237578252660905"
+  },
+  {
+  	"term": "David Kong",
+  	"headline": "Creator of StarGrid Battle Tactics",
+  	"definition": "David Kong is the creator of StarGrid Battle Tactics, a fully onchain tactical game built on AO. Drawing from his experience as a competitive Street Fighter player, David designed a game that emphasizes strategic depth and player skill.",
+  	"link": "https://x.com/onlyarweave/status/1920116449382896010"
+  },
+  {
+  	"term": "El Tío",
+  	"headline": "Community Manager and Bazar Lead",
+  	"definition": "El Tío helps manage several Permaweb communities while leading Bazar Marketplace, supporting creators and fostering engagement across the ecosystem.",
+  	"link": "https://x.com/onlyarweave/status/1927364222410784815"
+  },
+  {
+  	"term": "Tom Wilson",
+  	"headline": "CTO at Forward Research, leading developer tools and services on Arweave and AO Computer",
+  	"definition": "Tom Wilson is a highly experienced CTO at Forward Research, building developer tools and services that strengthen and expand the Arweave and AO ecosystem.",
+  	"link": "https://x.com/onlyarweave/status/1940047773140988286"
   }
 ]
