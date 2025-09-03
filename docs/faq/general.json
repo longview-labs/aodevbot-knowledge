@@ -16,7 +16,7 @@
   },
   {
     "question": "What are AO processes?",
-    "answer": "An AO process is a smart contract deployed on AO. Processes hold state, receive messages, and have functions to handle different interactions.",
+    "answer": "An AO process is a smart contract deployed on AO. Processes hold state, receive messages, and have functions to handle different interactions. ![Parallel processes on AO](https://video.twimg.com/amplify_video/1919443044786372608/vid/avc1/1920x1080/TgfiaMI0wo0chfWc.mp4?tag=16)",
     "tags": ["ao", "processes", "smart contracts"]
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "question": "How does AO work with Arweave?",
-    "answer": "AO is built on top of Arweave's permanent storage network, using it as the base layer for process and message storage.\n\nAll messages sent between AO processes are stored on Arweave. This creates an immutable audit trail of all interactions, and enables AO's \"holographic state\" - the message history can be replayed/executed in order to get the state of any process.\n\nThe relationship is symbiotic: Arweave provides the **storage layer**, while AO provides the **computational layer**. AO processes can also directly access data stored on Arweave through assignment mechanisms - you can pull in any Arweave transaction as input to your process computation.\n\nThis makes AO particularly powerful for applications requiring long-term data integrity, auditability, or decentralized computation that needs to persist beyond the lifetime of any particular infrastructure.",
+    "answer": "AO is built on top of Arweave's permanent storage network, using it as the base layer for process and message storage.\n\nAll messages sent between AO processes are stored on Arweave. This creates an immutable audit trail of all interactions, and enables AO's \"holographic state\" - the message history can be replayed/executed in order to get the state of any process.\n\nThe relationship is symbiotic: Arweave provides the **storage layer**, while AO provides the **computational layer**. AO processes can also directly access data stored on Arweave through assignment mechanisms - you can pull in any Arweave transaction as input to your process computation.\n\nThis makes AO particularly powerful for applications requiring long-term data integrity, auditability, or decentralized computation that needs to persist beyond the lifetime of any particular infrastructure. ![AO processes hosted permanently on Arweave](https://video.twimg.com/amplify_video/1919443044786372608/vid/avc1/1920x1080/TgfiaMI0wo0chfWc.mp4?tag=16)",
     "tags": ["ao", "arweave", "storage", "holographic state"]
   },
   {
@@ -186,7 +186,7 @@
   },
   {
 	"question": "How long is data stored on Arweave?",
-	"answer": "Data on Arweave is stored permanently, with a one-time payment covering about 200 years. This timeframe is expected to increase as storage costs decrease. Miners worldwide maintain copies, supported by an endowment fund that ensures ongoing storage even when costs are high.",
+	"answer": "Data on Arweave is stored permanently, with a one-time payment covering about 200 years. This timeframe is expected to increase as storage costs decrease. Miners worldwide maintain copies, supported by an endowment fund that ensures ongoing storage even when costs are high. ![Arweave’s permanent storage 101](https://arweave.net/21LOS64x0iSklsm_Z5re2LOxQ42ij7IEs9Z8DzPHoLY)",
 	"tags": ["arweave", "storage", "endowment"]
   },
   {
