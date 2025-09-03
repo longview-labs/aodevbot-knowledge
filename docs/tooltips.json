@@ -355,5 +355,95 @@
   	"headline": "CTO at Forward Research, leading developer tools and services on Arweave and AO Computer",
   	"definition": "Tom Wilson is a highly experienced CTO at Forward Research, building developer tools and services that strengthen and expand the Arweave and AO ecosystem.",
   	"link": "https://x.com/onlyarweave/status/1940047773140988286"
+  },
+  {
+	"term": "Holographic State",
+	"headline": "A state model in AO where process state is implied by its message log",
+	"definition": "In AO, each process maintains its state independently through a log of messages stored on Arweave. This 'holographic' state is not stored directly but inferred from the log, enabling parallel processing, faster interactions, and scalable, verifiable computation.",
+	"link": "https://x.com/aoComputerClub/status/1930640187123814476"
+  },
+  {
+	"term": "Community Labs",
+	"headline": "A software company and venture studio accelerating Arweave and AO adoption",
+	"definition": "Community Labs builds foundational tools and infrastructure for the Arweave and AO ecosystem. As a venture studio, it supports founders and teams in developing and scaling products from idea to mass adoption. The company is led by founder and CEO Tate Berenbaum.",
+	"link": "https://www.communitylabs.com/"
+  },
+  {
+	"term": "Forward Research",
+	"headline": "A research and development incubator for Arweave and AO",
+	"definition": "Forward Research is building the foundations of the permaweb, supporting builders and founders who create new classes of web services on Arweave that provably respect user rights. Forward Research provides resources and an environment designed to help projects grow from zero to market fit.",
+	"link": "https://x.com/fwdresearch"
+  },
+  {
+	"term": "$APUS",
+	"headline": "$APUS is the fair launch token supporting the Apus Network permaweb project.",
+	"definition": "The AO process ID for $APUS is jHZBsy0SalZ6I5BmYKRUt0AtLsn-FCFhqf_n6AgwGlc.",
+	"link": "https://www.apus.network/"
+  },
+  {
+	"term": "$BOTG",
+	"headline": "$BOTG is the fair launch token supporting the Botega permaweb project.",
+	"definition": "The AO process ID for $BOTG is UcBPqkaVI7W4I_YMznrt2JUoyc_7TScCdZWOOSBvMSU.",
+	"link": "https://botega.defi.ao/"
+  },
+  {
+	"term": "$ACTION",
+	"headline": "$ACTION is the fair launch token supporting the Basejump permaweb project.",
+	"definition": "The AO process ID for $ACTION is NXZjrPKh-fQx8BUCG_OXBUtB4Ix8Xf0gbUtREFoWQ2Q.",
+	"link": "https://basejump.xyz/home"
+  },
+  {
+	"term": "$LOAD",
+	"headline": "$LOAD is the fair launch token supporting the Load Network permaweb project.",
+	"definition": "The AO process ID for $LOAD is Qz3n2P-EiWNoWsvk7gKLtrV9ChvSXQ5HJPgPklWEgQ0.",
+	"link": "https://www.load.network/"
+  },
+  {
+	"term": "$WNDR",
+	"headline": "$WNDR is the fair launch token supporting the Wander permaweb project.",
+	"definition": "The AO process ID for $WNDR is 11T2aA8M-ZcoEnDqG37Kf2dzEGY2r4_CyYeiN_1VTvU.",
+	"link": "https://www.wander.app/"
+  },
+  {
+	"term": "$PL",
+	"headline": "$PL is the fair launch token supporting the Protocol.Land permaweb project.",
+	"definition": "The AO process ID for $PL is Wc8Rg-owsWSvrmb5XAlmSs3_4UtHo9i5ui2o9UCFuTk.",
+	"link": "https://protocol.land/"
+  },
+  {
+	"term": "$SMONEY",
+	"headline": "$SMONEY is the fair launch token supporting the StarGrid Battle Tactics permaweb project.",
+	"definition": "The AO process ID for $SMONEY is oIuISObCStjTFMnV3CrrERRb9KTDGN4507-ARysYzLE.",
+	"link": "https://stargrid.ar.io/"
+  },
+  {
+	"term": "$ARIO",
+	"headline": "$ARIO is the fair launch token supporting the AR.IO permaweb project.",
+	"definition": "The AO process ID for $ARIO is rW7h9J9jE2Xp36y4SKn2HgZaOuzRmbMfBRPwrFFifHE.",
+	"link": "https://ar.io/"
+  },
+  {
+	"term": "$GAME",
+	"headline": "$GAME is the fair launch token supporting the ArcAO permaweb project.",
+	"definition": "The AO process ID for $GAME is nYHhoSEtelyL3nQ6_CFoOVnZfnz2VHK-nEez962YMm8.",
+	"link": "https://game.arweave.net/"
+  },
+  {
+	"term": "$LQD",
+	"headline": "$LQD is the fair launch token supporting the LiquidOps permaweb project.",
+	"definition": "The AO process ID for $LQD is N0L1lUC-35wgyXK31psEHRjySjQMWPs_vHtTas5BJa8.",
+	"link": "https://liquidops.io/"
+  },
+  {
+	"term": "$PIXL",
+	"headline": "$PIXL is the fair launch token supporting the Bazar permaweb project.",
+	"definition": "The AO process ID for $PIXL is 3eZ6_ry6FD9CB58ImCQs6Qx_rJdDUGhz-D2W1AqzHD8.",
+	"link": "https://bazar.arweave.net/"
+  },
+  {
+	"term": "$NAB",
+	"headline": "$NAB is the fair launch token supporting the Number Always Bigger permaweb project.",
+	"definition": "The AO process ID for $NAB is X0HxJGSBzney-YLDzAtjt9Pc-c6N_1sf_MlqO0ezoeI.",
+	"link": "https://number-always-bigger.ar.io/"
   }
 ]
