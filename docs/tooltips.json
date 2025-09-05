@@ -356,6 +356,58 @@
   	"definition": "Tom Wilson is a highly experienced CTO at Forward Research, building developer tools and services that strengthen and expand the Arweave and AO ecosystem.",
   	"link": "https://x.com/onlyarweave/status/1940047773140988286"
   },
+	{
+	"term": "device",
+	"headline": "A component in AO that defines how messages should be interpreted",
+	"definition": "Each AO message can specify a Device that Converge-compatible systems use to interpret its contents. If no Device is given, it defaults to 'Message.' Every Device must implement the functions 'ID' and 'Keys'.",
+	"link": "https://hyperbeam.ar.io/build/devices/hyperbeam-devices.html"
+  },
+  {
+	"term": "asynchronous message passing",
+	"headline": "A communication paradigm where messages are sent without waiting for the receiver",
+	"definition": "In asynchronous message passing, senders transmit messages without waiting for receivers to be ready, enabling non-blocking operations and improved scalability in distributed systems.",
+  },
+  {
+	"term": "hashpath",
+	"headline": "A cryptographic fingerprint of a program’s state-space and operations",
+	"definition": "Hashpaths are Merklized sequences of inputs and operations that reference specific points in a program’s state. They ensure integrity and traceability while enabling developers to compose complex, verifiable data pipelines and interact with processes in a flexible, trustless way.",
+  },
+  {
+	"term": "Atomic Asset",
+	"headline": "NFTs on Arweave that bundle data, metadata, and ownership in one immutable transaction",
+	"definition": "Atomic Assets are non-fungible tokens built on Arweave where the asset, its metadata, and ownership logic are stored together permanently onchain. This atomic structure ensures immutability and verifiability, making them ideal for marketplaces like Bazar.",
+	"link": "https://bazar.ar.io/#/docs/developers/atomic-assets"
+  },
+  {
+	"term": "transaction",
+	"headline": "The fundamental building block of the Arweave network",
+	"definition": "All data on Arweave is stored as transactions. Each transaction contains data and metadata (tags) that can be queried and retrieved. Transactions can be posted directly or via bundling services, and may include tags for discovery or bundles for scalability—forming the foundation of all activity on the permaweb.",
+	"link": "https://cookbook.arweave.net/fundamentals/transactions/transaction-types.html"
+  },
+  {
+	"term": "VDF",
+	"headline": "Short for Verifiable Delay Function, a cryptographic function that proves a minimum time has passed",
+	"definition": "A VDF requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+	"link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+  },
+  {
+	"term": "verifiable delay function",
+	"headline": "A cryptographic function that proves a minimum time has passed",
+	"definition": "A Verifiable Delay Function (VDF) requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+	"link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+  },
+  {
+	"term": "Permanent Data Solutions",
+	"headline": "A company building apps and infrastructure for the permaweb",
+	"definition": "Permanent Data Solutions (PDS) develops web3 applications and core infrastructure that power the permaweb, a permanent decentralized internet. Its innovations include ArDrive, ar.io, ArNS, and the Wayfinder protocol. The company is led by Phil Mataras.",
+	"link": "https://pds.inc/"
+  },
+  {
+	"term": "Longview Labs",
+	"headline": "An organization creating content, products, and experiences for the Arweave and AO community",
+	"definition": "Longview Labs produces educational content, digital products, and community initiatives fully dedicated to Arweave and the permaweb. Its innovations include Arweave Hub, the Permaweb Pioneers podcast, Arweave India, aoDevBot, MyXSite, and the Only Arweave and ao Computer Club social accounts. Longview Labs is led by founder Greg Albritton.",
+	"link": "https://www.longviewlabs.co/"
+=======
   {
     "term": "Armstrong",
 	"headline": "The smallest unit of the AO Token",
