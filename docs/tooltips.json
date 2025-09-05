@@ -441,9 +441,176 @@
 	"link": "https://bazar.arweave.net/"
   },
   {
-	"term": "$NAB",
-	"headline": "$NAB is the fair launch token supporting the Number Always Bigger permaweb project.",
-	"definition": "The AO process ID for $NAB is X0HxJGSBzney-YLDzAtjt9Pc-c6N_1sf_MlqO0ezoeI.",
-	"link": "https://number-always-bigger.ar.io/"
+    "term": "$NAB",
+    "headline": "$NAB is the fair launch token supporting the Number Always Bigger permaweb project.",
+    "definition": "The AO process ID for $NAB is X0HxJGSBzney-YLDzAtjt9Pc-c6N_1sf_MlqO0ezoeI.",
+    "link": "https://number-always-bigger.ar.io/"
+  },
+	{
+	"term": "device",
+	"headline": "A component in AO that defines how messages should be interpreted",
+	"definition": "Each AO message can specify a Device that Converge-compatible systems use to interpret its contents. If no Device is given, it defaults to 'Message.' Every Device must implement the functions 'ID' and 'Keys'.",
+	"link": "https://hyperbeam.ar.io/build/devices/hyperbeam-devices.html"
+  },
+  {
+	"term": "asynchronous message passing",
+	"headline": "A communication paradigm where messages are sent without waiting for the receiver",
+	"definition": "In asynchronous message passing, senders transmit messages without waiting for receivers to be ready, enabling non-blocking operations and improved scalability in distributed systems.",
+  },
+  {
+	"term": "hashpath",
+	"headline": "A cryptographic fingerprint of a program’s state-space and operations",
+	"definition": "Hashpaths are Merklized sequences of inputs and operations that reference specific points in a program’s state. They ensure integrity and traceability while enabling developers to compose complex, verifiable data pipelines and interact with processes in a flexible, trustless way.",
+  },
+  {
+	"term": "Atomic Asset",
+	"headline": "NFTs on Arweave that bundle data, metadata, and ownership in one immutable transaction",
+	"definition": "Atomic Assets are non-fungible tokens built on Arweave where the asset, its metadata, and ownership logic are stored together permanently onchain. This atomic structure ensures immutability and verifiability, making them ideal for marketplaces like Bazar.",
+	"link": "https://bazar.ar.io/#/docs/developers/atomic-assets"
+  },
+  {
+    "term": "transaction",
+    "headline": "The fundamental building block of the Arweave network",
+    "definition": "All data on Arweave is stored as transactions. Each transaction contains data and metadata (tags) that can be queried and retrieved. Transactions can be posted directly or via bundling services, and may include tags for discovery or bundles for scalability—forming the foundation of all activity on the permaweb.",
+    "link": "https://cookbook.arweave.net/fundamentals/transactions/transaction-types.html"
+  },
+  {
+    "term": "VDF",
+    "headline": "Short for Verifiable Delay Function, a cryptographic function that proves a minimum time has passed",
+    "definition": "A VDF requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+    "link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+  },
+  {
+    "term": "verifiable delay function",
+    "headline": "A cryptographic function that proves a minimum time has passed",
+    "definition": "A Verifiable Delay Function (VDF) requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+    "link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+  },
+  {
+    "term": "Permanent Data Solutions",
+    "headline": "A company building apps and infrastructure for the permaweb",
+    "definition": "Permanent Data Solutions (PDS) develops web3 applications and core infrastructure that power the permaweb, a permanent decentralized internet. Its innovations include ArDrive, ar.io, ArNS, and the Wayfinder protocol. The company is led by Phil Mataras.",
+    "link": "https://pds.inc/"
+  },
+  {
+    "term": "Longview Labs",
+    "headline": "An organization creating content, products, and experiences for the Arweave and AO community",
+    "definition": "Longview Labs produces educational content, digital products, and community initiatives fully dedicated to Arweave and the permaweb. Its innovations include Arweave Hub, the Permaweb Pioneers podcast, Arweave India, aoDevBot, MyXSite, and the Only Arweave and ao Computer Club social accounts. Longview Labs is led by founder Greg Albritton.",
+    "link": "https://www.longviewlabs.co/"
+  {
+    "term": "Armstrong",
+    "headline": "The smallest unit of the AO Token",
+    "definition": "One AO token is equal to one trillion (1,000,000,000,000) Armstrongs. The unit is named after Joe Armstrong, one of the inventors of Erlang. Transactions on AO typically specify amounts in Armstrongs rather than whole AO tokens.",
+    "link": "https://www.communitylabs.com/blog/quick-guide-to-ao-token"
+  },
+  {
+    "term": "Erlang",
+    "headline": "Programming language behind HyperBEAM",
+    "definition": "Erlang is used to implement the HyperBEAM core, providing robustness and support for building distributed, fault-tolerant applications with reliable message passing and process management."
+  },
+  {
+    "term": "Messenger Unit",
+    "headline": "Node in the AO network that relays messages",
+    "definition": "A Messenger Unit (MU) is a node in the AO network that relays messages throughout the system. It serves as the entry point for users to interact with processes on AO.",
+    "link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+  	"term": "MU",
+  	"headline": "Messenger Unit: Node in the AO network that relays messages",
+  	"definition": "A Messenger Unit (MU) is a node in the AO network that relays messages throughout the system. It serves as the entry point for users to interact with processes on AO.",
+  	"link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+    "term": "Scheduler Unit",
+  	"headline": "Node in the AO network responsible for message ordering",
+  	"definition": "A Scheduler Unit (SU) assigns atomically incrementing slot numbers to messages sent to a process, ensuring deterministic ordering within the AO network.",
+  	"link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+    "term": "SU",
+  	"headline": "Scheduler Unit: Node responsible for message ordering",
+  	"definition": "An SU (Scheduler Unit) assigns atomically incrementing slot numbers to messages sent to a process, ensuring deterministic ordering within the AO network.",
+  	"link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+  	"term": "Compute Unit",
+  	"headline": "Node in the AO network responsible for executing process code",
+  	"definition": "A Compute Unit (CU) executes process code and manages state in the AO network, competing with other CUs to resolve process state.",
+  	"link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+  	"term": "CU",
+	"headline": "Compute Unit: Node responsible for executing process code",
+  	"definition": "A CU (Compute Unit) executes process code and manages state in the AO network, competing with other CUs to resolve process state.",
+  	"link": "https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4"
+  },
+  {
+  	"term": "Winston",
+  	"headline": "The smallest unit of the AR Token",
+  	"definition": "One AR token is equal to one trillion (1,000,000,000,000) Winstons. Winstons are used for precise calculations and transactions within the Arweave network, similar to satoshis in Bitcoin.",
+  },
+  {
+  	"term": "Cron",
+	"headline": "Time-based job scheduler in AO",
+  	"definition": "Cron allows AO processes to execute functions on a schedule, enabling autonomous and recurring contract execution.",
+  },
+  {
+	"term": "hyper parallel",
+	"headline": "AO is a hyper parallel computer",
+	"definition": "AO is described as a hyper parallel computer because it can execute many processes simultaneously and independently, enabling faster processing and efficient use of resources.",
+	"link": "https://x.com/onlyarweave/status/1842218286236499972"
+  },
+  {
+	"term": "hyper parallel computing",
+	"headline": "Executing multiple processes simultaneously in AO",
+	"definition": "Hyper Parallel Computing allows AO to run multiple processes independently at the same time, improving system performance and efficiently utilizing computational resources.",
+	"link": "https://x.com/onlyarweave/status/1842218286236499972"
+  },
+  {
+  	"term": "Wayfinder Protocol",
+  	"headline": "Protocol for dynamic gateway routing and AR.IO integration",
+  	"definition": "The Wayfinder Protocol lets applications switch between network gateways, abstracts top-level domains from Arweave data, and powers the ar:// schema for seamless access to ArNS names, base layer transactions, and bundled data items.",
+  	"link": "https://ar.io/access"
+  },
+  {
+  	"term": "Storage Endowment",
+  	"headline": "Financial mechanism for long-term Arweave storage",
+  	"definition": "The Storage Endowment lets users pay upfront for long-term storage (≈200 years at current prices). Funds are held in the endowment and only released if needed to pay for ongoing storage costs, creating a natural token sink that reduces circulating supply.",
+  	"link": "https://viewblock.io/arweave/stat/cumulativeEndowmentSize"
+  },
+  {
+    "term": "mempool",
+    "headline": "Temporary storage of pending Arweave transactions",
+    "definition": "A mempool (short for memory pool) is a component of Arweave mining nodes that temporarily holds valid transactions broadcast to the network but not yet added to a block."
+  },
+  {
+  	"term": "ArDrive Turbo",
+  	"headline": "Ultrahigh-throughput Permaweb storage service",
+  	"definition": "ArDrive Turbo streamlines uploading, indexing, and transmitting data to Arweave. It supports payments in fiat and crypto, uses efficient bundling for uploads, and offers Turbo Credits with the same storage power as AR tokens for precise control.",
+  	"link": "https://docs.ardrive.io/docs/turbo/what-is-turbo.html"
+  },
+  {
+    "term": "under_names",
+    "headline": "Subdomains for ArNS names",
+    "definition": "ANT owners can configure multiple subdomains for their registered ArNS name, called under_names or undernames. They use an underscore \"_\" instead of a dot \".\" to separate the subdomain from the main ArNS domain and can be added at registration or later.",
+    "link": "https://docs.ar.io/arns#under-names"
+  },
+  {
+  	"term": "Trusted Execution Environment",
+  	"headline": "Secure processor area protecting code and data",
+  	"definition": "A Trusted Execution Environment (TEE) is a secure area of a processor in AO that ensures code and data inside are protected for confidentiality and integrity, similar to a hardware wallet.",
+  	"link": "https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12"
+  },
+  {
+  	"term": "TEE",
+  	"headline": "Trusted Execution Environment: Secure processor area",
+  	"definition": "A TEE (Trusted Execution Environment) is a protected area of a processor in AO that guarantees the confidentiality and integrity of code and data, offering security akin to a hardware wallet.",
+  	"link": "https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12"
+  },
+  {
+  	"term": "Permanent Cloud Network",
+  	"headline": "AR.IO: Decentralized, censorship-resistant cloud infrastructure",
+  	"definition": "AR.IO is the first permanent cloud network, providing decentralized access to data, storage, and domains. Built on Arweave, it ensures information and applications remain tamper-proof, universally accessible, and free from centralized control, with incentivized gateways for reliability and permanent domains for true digital ownership.",
+  	"link": "https://ar.io/"
   }
 ]
