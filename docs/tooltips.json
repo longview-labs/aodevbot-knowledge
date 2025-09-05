@@ -356,6 +356,96 @@
   	"definition": "Tom Wilson is a highly experienced CTO at Forward Research, building developer tools and services that strengthen and expand the Arweave and AO ecosystem.",
   	"link": "https://x.com/onlyarweave/status/1940047773140988286"
   },
+  {
+	"term": "Holographic State",
+	"headline": "A state model in AO where process state is implied by its message log",
+	"definition": "In AO, each process maintains its state independently through a log of messages stored on Arweave. This 'holographic' state is not stored directly but inferred from the log, enabling parallel processing, faster interactions, and scalable, verifiable computation.",
+	"link": "https://x.com/aoComputerClub/status/1930640187123814476"
+  },
+  {
+	"term": "Community Labs",
+	"headline": "A software company and venture studio accelerating Arweave and AO adoption",
+	"definition": "Community Labs builds foundational tools and infrastructure for the Arweave and AO ecosystem. As a venture studio, it supports founders and teams in developing and scaling products from idea to mass adoption. The company is led by founder and CEO Tate Berenbaum.",
+	"link": "https://www.communitylabs.com/"
+  },
+  {
+	"term": "Forward Research",
+	"headline": "A research and development incubator for Arweave and AO",
+	"definition": "Forward Research is building the foundations of the permaweb, supporting builders and founders who create new classes of web services on Arweave that provably respect user rights. Forward Research provides resources and an environment designed to help projects grow from zero to market fit.",
+	"link": "https://x.com/fwdresearch"
+  },
+  {
+	"term": "$APUS",
+	"headline": "$APUS is the fair launch token supporting the Apus Network permaweb project.",
+	"definition": "The AO process ID for $APUS is jHZBsy0SalZ6I5BmYKRUt0AtLsn-FCFhqf_n6AgwGlc.",
+	"link": "https://www.apus.network/"
+  },
+  {
+	"term": "$BOTG",
+	"headline": "$BOTG is the fair launch token supporting the Botega permaweb project.",
+	"definition": "The AO process ID for $BOTG is UcBPqkaVI7W4I_YMznrt2JUoyc_7TScCdZWOOSBvMSU.",
+	"link": "https://botega.defi.ao/"
+  },
+  {
+	"term": "$ACTION",
+	"headline": "$ACTION is the fair launch token supporting the Basejump permaweb project.",
+	"definition": "The AO process ID for $ACTION is NXZjrPKh-fQx8BUCG_OXBUtB4Ix8Xf0gbUtREFoWQ2Q.",
+	"link": "https://basejump.xyz/home"
+  },
+  {
+	"term": "$LOAD",
+	"headline": "$LOAD is the fair launch token supporting the Load Network permaweb project.",
+	"definition": "The AO process ID for $LOAD is Qz3n2P-EiWNoWsvk7gKLtrV9ChvSXQ5HJPgPklWEgQ0.",
+	"link": "https://www.load.network/"
+  },
+  {
+	"term": "$WNDR",
+	"headline": "$WNDR is the fair launch token supporting the Wander permaweb project.",
+	"definition": "The AO process ID for $WNDR is 11T2aA8M-ZcoEnDqG37Kf2dzEGY2r4_CyYeiN_1VTvU.",
+	"link": "https://www.wander.app/"
+  },
+  {
+	"term": "$PL",
+	"headline": "$PL is the fair launch token supporting the Protocol.Land permaweb project.",
+	"definition": "The AO process ID for $PL is Wc8Rg-owsWSvrmb5XAlmSs3_4UtHo9i5ui2o9UCFuTk.",
+	"link": "https://protocol.land/"
+  },
+  {
+	"term": "$SMONEY",
+	"headline": "$SMONEY is the fair launch token supporting the StarGrid Battle Tactics permaweb project.",
+	"definition": "The AO process ID for $SMONEY is oIuISObCStjTFMnV3CrrERRb9KTDGN4507-ARysYzLE.",
+	"link": "https://stargrid.ar.io/"
+  },
+  {
+	"term": "$ARIO",
+	"headline": "$ARIO is the fair launch token supporting the AR.IO permaweb project.",
+	"definition": "The AO process ID for $ARIO is rW7h9J9jE2Xp36y4SKn2HgZaOuzRmbMfBRPwrFFifHE.",
+	"link": "https://ar.io/"
+  },
+  {
+	"term": "$GAME",
+	"headline": "$GAME is the fair launch token supporting the ArcAO permaweb project.",
+	"definition": "The AO process ID for $GAME is nYHhoSEtelyL3nQ6_CFoOVnZfnz2VHK-nEez962YMm8.",
+	"link": "https://game.arweave.net/"
+  },
+  {
+	"term": "$LQD",
+	"headline": "$LQD is the fair launch token supporting the LiquidOps permaweb project.",
+	"definition": "The AO process ID for $LQD is N0L1lUC-35wgyXK31psEHRjySjQMWPs_vHtTas5BJa8.",
+	"link": "https://liquidops.io/"
+  },
+  {
+	"term": "$PIXL",
+	"headline": "$PIXL is the fair launch token supporting the Bazar permaweb project.",
+	"definition": "The AO process ID for $PIXL is 3eZ6_ry6FD9CB58ImCQs6Qx_rJdDUGhz-D2W1AqzHD8.",
+	"link": "https://bazar.arweave.net/"
+  },
+  {
+    "term": "$NAB",
+    "headline": "$NAB is the fair launch token supporting the Number Always Bigger permaweb project.",
+    "definition": "The AO process ID for $NAB is X0HxJGSBzney-YLDzAtjt9Pc-c6N_1sf_MlqO0ezoeI.",
+    "link": "https://number-always-bigger.ar.io/"
+  },
 	{
 	"term": "device",
 	"headline": "A component in AO that defines how messages should be interpreted",
@@ -379,45 +469,44 @@
 	"link": "https://bazar.ar.io/#/docs/developers/atomic-assets"
   },
   {
-	"term": "transaction",
-	"headline": "The fundamental building block of the Arweave network",
-	"definition": "All data on Arweave is stored as transactions. Each transaction contains data and metadata (tags) that can be queried and retrieved. Transactions can be posted directly or via bundling services, and may include tags for discovery or bundles for scalability—forming the foundation of all activity on the permaweb.",
-	"link": "https://cookbook.arweave.net/fundamentals/transactions/transaction-types.html"
+    "term": "transaction",
+    "headline": "The fundamental building block of the Arweave network",
+    "definition": "All data on Arweave is stored as transactions. Each transaction contains data and metadata (tags) that can be queried and retrieved. Transactions can be posted directly or via bundling services, and may include tags for discovery or bundles for scalability—forming the foundation of all activity on the permaweb.",
+    "link": "https://cookbook.arweave.net/fundamentals/transactions/transaction-types.html"
   },
   {
-	"term": "VDF",
-	"headline": "Short for Verifiable Delay Function, a cryptographic function that proves a minimum time has passed",
-	"definition": "A VDF requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
-	"link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+    "term": "VDF",
+    "headline": "Short for Verifiable Delay Function, a cryptographic function that proves a minimum time has passed",
+    "definition": "A VDF requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+    "link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
   },
   {
-	"term": "verifiable delay function",
-	"headline": "A cryptographic function that proves a minimum time has passed",
-	"definition": "A Verifiable Delay Function (VDF) requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
-	"link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
+    "term": "verifiable delay function",
+    "headline": "A cryptographic function that proves a minimum time has passed",
+    "definition": "A Verifiable Delay Function (VDF) requires a set number of sequential steps to compute, producing a unique output that can be quickly and publicly verified. Arweave implements a chained hashing VDF using SHA2-256, ensuring that generating a valid checkpoint implies the passage of real time. This mechanism provides a simple, trustless way to prove time intervals in the network.",
+    "link": "https://nm5d5uvmhjw363xf3idhjrd6nllqqrk76kkjbfpavyfmf7zzddxa.arweave.net/azo-0qw6bb9u5doGdMR-atcIRV_ylJCV4K4Kwv85GO4"
   },
   {
-	"term": "Permanent Data Solutions",
-	"headline": "A company building apps and infrastructure for the permaweb",
-	"definition": "Permanent Data Solutions (PDS) develops web3 applications and core infrastructure that power the permaweb, a permanent decentralized internet. Its innovations include ArDrive, ar.io, ArNS, and the Wayfinder protocol. The company is led by Phil Mataras.",
-	"link": "https://pds.inc/"
+    "term": "Permanent Data Solutions",
+    "headline": "A company building apps and infrastructure for the permaweb",
+    "definition": "Permanent Data Solutions (PDS) develops web3 applications and core infrastructure that power the permaweb, a permanent decentralized internet. Its innovations include ArDrive, ar.io, ArNS, and the Wayfinder protocol. The company is led by Phil Mataras.",
+    "link": "https://pds.inc/"
   },
   {
-	"term": "Longview Labs",
-	"headline": "An organization creating content, products, and experiences for the Arweave and AO community",
-	"definition": "Longview Labs produces educational content, digital products, and community initiatives fully dedicated to Arweave and the permaweb. Its innovations include Arweave Hub, the Permaweb Pioneers podcast, Arweave India, aoDevBot, MyXSite, and the Only Arweave and ao Computer Club social accounts. Longview Labs is led by founder Greg Albritton.",
-	"link": "https://www.longviewlabs.co/"
-=======
+    "term": "Longview Labs",
+    "headline": "An organization creating content, products, and experiences for the Arweave and AO community",
+    "definition": "Longview Labs produces educational content, digital products, and community initiatives fully dedicated to Arweave and the permaweb. Its innovations include Arweave Hub, the Permaweb Pioneers podcast, Arweave India, aoDevBot, MyXSite, and the Only Arweave and ao Computer Club social accounts. Longview Labs is led by founder Greg Albritton.",
+    "link": "https://www.longviewlabs.co/"
   {
     "term": "Armstrong",
-	"headline": "The smallest unit of the AO Token",
-	"definition": "One AO token is equal to one trillion (1,000,000,000,000) Armstrongs. The unit is named after Joe Armstrong, one of the inventors of Erlang. Transactions on AO typically specify amounts in Armstrongs rather than whole AO tokens.",
-	"link": "https://www.communitylabs.com/blog/quick-guide-to-ao-token"
+    "headline": "The smallest unit of the AO Token",
+    "definition": "One AO token is equal to one trillion (1,000,000,000,000) Armstrongs. The unit is named after Joe Armstrong, one of the inventors of Erlang. Transactions on AO typically specify amounts in Armstrongs rather than whole AO tokens.",
+    "link": "https://www.communitylabs.com/blog/quick-guide-to-ao-token"
   },
   {
-	"term": "Erlang",
-	"headline": "Programming language behind HyperBEAM",
-	"definition": "Erlang is used to implement the HyperBEAM core, providing robustness and support for building distributed, fault-tolerant applications with reliable message passing and process management.",
+    "term": "Erlang",
+    "headline": "Programming language behind HyperBEAM",
+    "definition": "Erlang is used to implement the HyperBEAM core, providing robustness and support for building distributed, fault-tolerant applications with reliable message passing and process management."
   },
   {
     "term": "Messenger Unit",
@@ -490,9 +579,9 @@
   	"link": "https://viewblock.io/arweave/stat/cumulativeEndowmentSize"
   },
   {
-	"term": "mempool",
-	"headline": "Temporary storage of pending Arweave transactions",
-	"definition": "A mempool (short for memory pool) is a component of Arweave mining nodes that temporarily holds valid transactions broadcast to the network but not yet added to a block.",
+    "term": "mempool",
+    "headline": "Temporary storage of pending Arweave transactions",
+    "definition": "A mempool (short for memory pool) is a component of Arweave mining nodes that temporarily holds valid transactions broadcast to the network but not yet added to a block."
   },
   {
   	"term": "ArDrive Turbo",
@@ -501,10 +590,10 @@
   	"link": "https://docs.ardrive.io/docs/turbo/what-is-turbo.html"
   },
   {
-	"term": "under_names",
-	"headline": "Subdomains for ArNS names",
-	"definition": "ANT owners can configure multiple subdomains for their registered ArNS name, called under_names or undernames. They use an underscore \"_\" instead of a dot \".\" to separate the subdomain from the main ArNS domain and can be added at registration or later.",
-	"link": "https://docs.ar.io/arns#under-names"
+    "term": "under_names",
+    "headline": "Subdomains for ArNS names",
+    "definition": "ANT owners can configure multiple subdomains for their registered ArNS name, called under_names or undernames. They use an underscore \"_\" instead of a dot \".\" to separate the subdomain from the main ArNS domain and can be added at registration or later.",
+    "link": "https://docs.ar.io/arns#under-names"
   },
   {
   	"term": "Trusted Execution Environment",
