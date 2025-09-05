@@ -198,5 +198,20 @@
 	"question": "What are Atomic Assets?",
 	"answer": "Atomic Assets are NFTs (Non-Fungible Tokens) built on Arweave that store both the asset and its metadata permanently onchain. Unlike traditional NFTs where metadata might be stored separately, Atomic Assets keep everything together in a single, immutable transaction. \n\n These assets can be traded on marketplaces like Bazar, which is specifically built for Atomic Assets on AO. Bazar functions as both a marketplace and a launchpad for new NFT projects. \n\n The \"atomic\" nature refers to how the asset data, metadata, and ownership information are bundled together atomically - meaning they're inseparable and stored permanently on Arweave. ![The Place for Creators](https://arweave.net/QKLRiHAREKs9ezhGj_Xbkbwt35wvTeKdbeGr_RClJRg)",
 	"tags": ["atomic asset", "nft", "Bazar"]
+  },
+  {
+	"question": "How many $AO tokens are there?",
+	"answer": "$AO has a total supply of 21 million tokens, with new $AO tokens being distributed every 5 minutes and at a monthly rate of 1.425% of the remaining supply. This smooth release schedule ensures a gradual 4-year halving cycle, avoiding abrupt halving events. \n\n You can learn more about $AO’s tokenomics in this article: [Economics of the AO Computer](https://mirror.xyz/0x1EE4bE8670E8Bd7E9E2E366F530467030BE4C840/-UWra0q0KWecSpgg2-c37dbZ0lnOMEScEEkabVm9qaQ)\n ![Overview of AO tokenomics](https://video.twimg.com/amplify_video/1915487034493251585/vid/avc1/1920x1080/e-1POl7skqaA_6PA.mp4?tag=16)",
+	"tags": ["ao", "tokenomics", "token"]
+  },
+  {
+	"question": "Does $AO following a Bitcoin-style halving schedule?",
+	"answer": "While $AO has a total supply of 21 million tokens and its token emissions halve over 4-year cycles, the mechanism is not exactly the same as Bitcoin's. New $AO tokens are emitted every 5 minutes, following a monthly rate of 1.425% of the remaining supply. This smooth release schedule ensures a gradual 4-year halving cycle, avoiding abrupt halving events such as in Bitcoin's 4-year halving cycle. \n\n You can learn more about $AO’s tokenomics in this article: [Economics of the AO Computer](https://mirror.xyz/0x1EE4bE8670E8Bd7E9E2E366F530467030BE4C840/-UWra0q0KWecSpgg2-c37dbZ0lnOMEScEEkabVm9qaQ)\n ![Overview of AO tokenomics](https://video.twimg.com/amplify_video/1915487034493251585/vid/avc1/1920x1080/e-1POl7skqaA_6PA.mp4?tag=16)",
+	"tags": ["ao", "tokenomics", "Bitcoin"]
+  },
+  {
+	"question": "How many $AR tokens are there?",
+	"answer": "Arweave has a total supply of 66 million $AR tokens, 55 million of which were created in the genesis block at network launch on June 8th, 2018. The remaining 11 million $AR are being introduced into circulation gradually as block mining rewards. You can learn more about Arweave's tokenomics in this detailed Only Arweave thread: [Some key facts about Arweave's tokenomics](https://x.com/onlyarweave/status/1725514260795785606) \n![Arweave's tokenomics](https://arweave.net/wmO6JsM2Jdj-LtD1lsaHfbaVLP3Ag5zRJxSHwDEJxzQ)",
+	"tags": ["arweave", "tokenomics", "AR"]
   }
 ]
