@@ -613,5 +613,11 @@
     "headline": "AR.IO: Decentralized, censorship-resistant cloud infrastructure",
     "definition": "AR.IO is the first permanent cloud network, providing decentralized access to data, storage, and domains. Built on Arweave, it ensures information and applications remain tamper-proof, universally accessible, and free from centralized control, with incentivized gateways for reliability and permanent domains for true digital ownership.",
     "link": "https://ar.io/"
+  },
+  {
+    "term": "Reality Protocol",
+    "headline": "A framework for decentralized AI agents and interactive worlds on AO Computer",
+    "definition": "Reality Protocol lets AI agents operate autonomously within open, onchain worlds, supporting scalable, verifiable computation and interactive experiences in games like LlamaLand, Aqualandia, and RuneRealm.",
+    "link": "https://github.com/elliotsayes/Reality/blob/main/docs/Readme.md"
   }
 ]
