@@ -619,5 +619,17 @@
     "headline": "A framework for decentralized AI agents and interactive worlds on AO Computer",
     "definition": "Reality Protocol lets AI agents operate autonomously within open, onchain worlds, supporting scalable, verifiable computation and interactive experiences in games like LlamaLand, Aqualandia, and RuneRealm.",
     "link": "https://github.com/elliotsayes/Reality/blob/main/docs/Readme.md"
+  },
+  {
+    "term": "AO-Core",
+    "headline": "The protocol specification for AO Computer",
+    "definition": "AO-Core defines how distributed, message-passing processes run on AO. Inspired by Erlang and the actor model, it ensures reliable execution and supports modular, composable applications.",
+    "link": "https://cookbook_ao.arweave.net/welcome/ao-core-introduction.html"
+  },
+  {
+    "term": "HyperBEAM",
+    "headline": "The decentralized runtime implementing AO-Core on AO Computer",
+    "definition": "HyperBEAM turns AO-Core’s concepts into a working environment, enabling trust-minimized computation with deterministic execution, message scheduling, and WebAssembly support. It powers AO as a scalable, distributed supercomputer on Arweave.",
+    "link": "https://hyperbeam.ar.io/"
   }
 ]
