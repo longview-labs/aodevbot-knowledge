@@ -417,5 +417,33 @@
        "games", 
        "reality protocol"
     ]
+  },
+  {
+    "question": "What is AO-Core?",
+    "answer": "AO-Core is the fundamental protocol specification of AO Computer, defining how trustless computation works across the network. Inspired by the Erlang language and the actor model, it provides mathematical guarantees about program execution and enables concurrent, message-passing processes. AO-Core supports modular development through devices, allows composable applications, and can run in multiple execution environments. ![Difference between AO-Core and HyperBEAM](https://video.twimg.com/amplify_video/1965430026222055424/vid/avc1/1290x720/cigOhWe6WrnJ5RBn.mp4?tag=14)",
+    "tags": [
+       "ao", 
+       "protocol", 
+       "AO-Core"
+    ]
+  },
+  {
+    "question": "What is HyperBEAM?",
+    "answer": "HyperBEAM is the production-ready implementation of the AO-Core protocol. It acts as the decentralized operating system of AO Computer. \n\n HyperBEAM transforms AO-Core’s concepts (Messages, Devices, and Paths) into a working runtime environment, enabling trust-minimized computation across a network of nodes. By providing deterministic execution, message scheduling, and WebAssembly (WASM) runtime capabilities, HyperBEAM powers AO as a scalable, distributed supercomputer built on Arweave’s permanent storage. \n\n Visit [hyperbeam.ar.io](https://hyperbeam.ar.io/) to learn more. ![Difference between AO-Core and HyperBEAM](https://video.twimg.com/amplify_video/1965430026222055424/vid/avc1/1290x720/cigOhWe6WrnJ5RBn.mp4?tag=14)",
+    "tags": [
+       "ao", 
+       "hyperBEAM", 
+       "node"
+    ]
+  },
+  {
+    "question": "How can I join the permaweb community?",
+    "answer": "The permaweb, powered by Arweave and AO Computer, is free to explore and use. You can interact with countless permanent websites and decentralized applications already built on the network.\n\n If you’d like to get involved as a developer or contributor, start by joining one of the many active global communities, such as [Arweave India](https://x.com/arweaveindia), [Arweave Philippines](https://x.com/arweaveph), [Arweave Africa](https://x.com/ArweaveAfrica), or [Arweave Japan](https://x.com/arweavejp).\n\nYou can also get support in project-specific Discords, like those of the [AO development team](discord.gg/dYXtHwc9dc) and [AR.IO](https://discord.com/invite/HGG52EtTc2). Introduce yourself, ask questions, and start experimenting. You’ll quickly find your way in the permaweb ecosystem.",
+    "tags": [
+       "arweave", 
+       "ao", 
+       "permaweb", 
+       "community"
+    ]
   }
 ]
