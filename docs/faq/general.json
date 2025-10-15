@@ -445,5 +445,32 @@
        "permaweb", 
        "community"
     ]
+  },
+  {
+    "question": "How much does it cost to store data on Arweave?",
+    "answer": "Storing data on Arweave requires a one-time payment that covers approximately 200 years of storage, based on a conservative estimate of future storage costs. In practice, your data is likely to remain stored for much longer. \n\n When you upload data to Arweave, your payment is split into two parts:\n- A small, instant fee paid to the miner who processes your transaction.\n- The majority goes into Arweave's endowment fund, which ensures long-term storage.\n\nThe actual price depends on several factors:\n- Size of the data being stored\n- Current network demand\n- AR token price\n- Current storage costs\n\nAs storage technology improves and costs decrease (following the Kryder+ Rate), your data may remain stored for even longer than the initial estimate.\n\nFor users who prefer not to use cryptocurrency directly, services like ArDrive allow alternative payment methods, including credit cards or other cryptocurrencies such as ETH and SOL. ![Arweave's permanent storage 101](https://arweave.net/21LOS64x0iSklsm_Z5re2LOxQ42ij7IEs9Z8DzPHoLY)",
+    "tags": [
+      "arweave", 
+      "storage", 
+      "crypto"
+    ]
+  },
+  {
+    "question": "Does AO support smart contracts?",
+    "answer": "Yes, AO fully supports smart contracts, but they work differently than on platforms like Ethereum. In AO, smart contracts are called processes.\n\nThese processes:\n- Hold state\n- Receive messages\n- Have handler functions for different interactions\n\nUnlike traditional smart contracts, AO processes don't rely on global state or consensus from all nodes. Each process runs independently, enabling massive parallelism and scalability.\n\nAO smart contracts also offer powerful capabilities:\n- They can wake themselves up (self-scheduling)\n- You can set timers or triggers for future execution\n- They integrate directly with HTTP as a native extension of the web\n- They're especially well-suited for AI agents and time-sensitive logic\n\nDevelopers typically use AOS, AO’s development environment, to build, deploy, and interact with these processes. ![AO Processes](https://video.twimg.com/amplify_video/1919443044786372608/vid/avc1/1920x1080/TgfiaMI0wo0chfWc.mp4?tag=16)",
+    "tags": [
+      "ao", 
+      "smart contracts",
+      "processes"
+    ]
+  },
+  {
+    "question": "Can you estimate the cost of data storage on Arweave?",
+    "answer": "Data on Arweave is stored permanently with a one-time payment that covers approximately 200 years of storage. This is a conservative estimate, and the duration may increase as storage costs decrease over time.\n\nTo estimate current Arweave storage costs, you can use tools like:\n- [ar-fees.arweave.net](https://ar-fees.arweave.net/) – a simple calculator for Arweave upload fees\n- [prices.ardrive.io](https://prices.ardrive.io/) – ArDrive's pricing tool for storage estimates\n\nThese tools help calculate the upfront cost based on file size and current network conditions. ![Arweave's permanent storage 101](https://arweave.net/21LOS64x0iSklsm_Z5re2LOxQ42ij7IEs9Z8DzPHoLY)",
+    "tags": [
+      "arweave", 
+      "storage", 
+      "fees"
+    ]
   }
 ]
