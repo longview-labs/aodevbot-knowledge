@@ -268,7 +268,7 @@
   },
   {
     "question": "What is a hashpath?",
-    "answer": "A hashpath is a cryptographic reference to the sequence of inputs that define a process’s state. It acts like a Merkle proof and allows anyone to verify the state of a process without trusting the node that ran it. This is how AO verifies computation without global consensus.",
+    "answer": "A hashpath is a cryptographic reference to the sequence of inputs that define a process’s state. It acts like a Merkle proof and allows anyone to verify the state of a process without trusting the node that ran it. This is how AO verifies computation without global consensus. \n\n [Jack Explains: Understanding AO hashpaths](https://video.twimg.com/amplify_video/1976664039435771905/vid/avc1/1290x720/jE_dELCUVe3n4Rbp.mp4?tag=14)",
     "tags": [
       "hashpath",
       "verification",
@@ -472,5 +472,50 @@
       "storage", 
       "fees"
     ]
-  }
+  },
+  {
+    "question": "What is the latest Arweave version?",
+    "answer": "Arweave is currently running version 2.9.5. You can see the full release notes on the [ArweaveTeam GitHub repository](https://github.com/ArweaveTeam/arweave/releases).",
+    "tags": [
+      "arweave", 
+      "protocol", 
+      "version"
+    ]
+  },
+  {
+  "question": "What is the latest version of HyperBEAM?",
+  "answer": "HyperBEAM is currently running on Milestone 3 Beta 3. You can see the full release notes on the [HyperBEAM GitHub repository](https://github.com/permaweb/HyperBEAM/releases).",
+  "tags": [
+      "AO", 
+      "HyperBEAM", 
+      "Version"
+    ]
+  },
+  {
+  "question": "How can I get the latest version of AO-Core?",
+  "answer": "To get the latest version of AO-Core, check the [ao-core-libs GitHub repository](https://github.com/permaweb/ao-core-libs) and install the most recent build of the @permaweb/ao-core-libs SDK via npm or yarn.",
+  "tags": [
+      "AO",
+      "AO-Core",
+      "Version"
+    ]
+  },
+  {
+  "question": "How can I get the latest version of AOS?",
+  "answer": "The current AOS release is 2.0.4 and the Client version is 2.0.6. To make sure you’re up to date, check the [AOS GitHub repository](https://github.com/permaweb/aos) for the most recent build and installation instructions.",
+  "tags": [
+      "AO",
+      "AOS",
+      "Version"
+    ]
+  },
+{
+  "question": "How can I get the latest version of AOConnect?",
+  "answer": "To get the latest version of AOConnect, check the [AOConnect GitHub repository](https://github.com/permaweb/ao/tree/main/connect) for the most recent build and installation instructions.",
+  "tags": [
+      "AO",
+      "AOConnect",
+      "Version"
+    ]
+}
 ]
