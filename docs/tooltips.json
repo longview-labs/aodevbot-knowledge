@@ -460,7 +460,8 @@
   {
     "term": "hashpath",
     "headline": "A cryptographic fingerprint of a program’s state-space and operations",
-    "definition": "Hashpaths are Merklized sequences of inputs and operations that reference specific points in a program’s state. They ensure integrity and traceability while enabling developers to compose complex, verifiable data pipelines and interact with processes in a flexible, trustless way."
+    "definition": "Hashpaths are Merklized sequences of inputs and operations that reference specific points in a program’s state. They ensure integrity and traceability while enabling developers to compose complex, verifiable data pipelines and interact with processes in a flexible, trustless way.",
+    "link": "https://x.com/aoComputerClub/status/1976664150312104359"
   },
   {
     "term": "Atomic Asset",
