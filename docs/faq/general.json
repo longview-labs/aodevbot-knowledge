@@ -395,63 +395,63 @@
     "question": "What is AR.IO?",
     "answer": "AR.IO is a decentralized network of gateways that connects users to the permaweb. These gateways act like permanent cloud service providers, making it possible to read, write, and discover data, applications, and identities stored on Arweave. The network is powered by the $ARIO token, which supports gateway operations, staking, and services like the Arweave Name System (ArNS). \n\n ![AR.IO founder Phil Mataras gives an overview of the first permanent cloud network.](https://video.twimg.com/ext_tw_video/1896986767833608192/pu/vid/avc1/1280x720/26zi2xLSpF4_SzfT.mp4?tag=12)",
     "tags": [
-       "gateway", 
-       "permanent cloud network", 
-       "ARIO"
+      "gateway",
+      "permanent cloud network",
+      "ARIO"
     ]
   },
   {
     "question": "Do I need crypto to upload data to Arweave?",
     "answer": "While Arweave does require payment in $AR tokens to process data storage in its network, services like ArDrive offer solutions for fiat payments by credit cards or even payment in other cryptocurrencies, such as $ETH and $SOL. Find out more at [ArDrive]( https://ardrive.io/)",
     "tags": [
-       "storage", 
-       "AR", 
-       "ArDrive"
+      "storage",
+      "AR",
+      "ArDrive"
     ]
   },
   {
     "question": "What is Reality Protocol on AO Computer?",
     "answer": "Reality Protocol is a framework on AO Computer that enables the creation and operation of decentralized AI agents within trustless, onchain environments. Built on AO’s actor-oriented architecture and Arweave’s permanent storage, it allows agents to interact, compute, and evolve without relying on centralized infrastructure. Games like LlamaLand, Aqualandia, and RuneRealm use Reality Protocol to create open, composable worlds where users can build and interact with AI agents. \n\nDevelopers can create new agents using simple scripts, register them onchain, and have them operate autonomously, taking advantage of AO's message-passing architecture. Reality Protocol supports decentralized applications and gaming with scalable, verifiable computation.\n\n ![Watch Sam Williams demonstrating LlamaLand and Reality Protocol on AO Computer](https://video.twimg.com/amplify_video/1816838866956881920/vid/avc1/1280x720/3-hf6WmvS-ZMOUJu.mp4?tag=14)",
     "tags": [
-       "ao", 
-       "games", 
-       "reality protocol"
+      "ao",
+      "games",
+      "reality protocol"
     ]
   },
   {
     "question": "What is AO-Core?",
     "answer": "AO-Core is the fundamental protocol specification of AO Computer, defining how trustless computation works across the network. Inspired by the Erlang language and the actor model, it provides mathematical guarantees about program execution and enables concurrent, message-passing processes. AO-Core supports modular development through devices, allows composable applications, and can run in multiple execution environments. ![Difference between AO-Core and HyperBEAM](https://video.twimg.com/amplify_video/1965430026222055424/vid/avc1/1290x720/cigOhWe6WrnJ5RBn.mp4?tag=14)",
     "tags": [
-       "ao", 
-       "protocol", 
-       "AO-Core"
+      "ao",
+      "protocol",
+      "AO-Core"
     ]
   },
   {
     "question": "What is HyperBEAM?",
     "answer": "HyperBEAM is the production-ready implementation of the AO-Core protocol. It acts as the decentralized operating system of AO Computer. \n\n HyperBEAM transforms AO-Core’s concepts (Messages, Devices, and Paths) into a working runtime environment, enabling trust-minimized computation across a network of nodes. By providing deterministic execution, message scheduling, and WebAssembly (WASM) runtime capabilities, HyperBEAM powers AO as a scalable, distributed supercomputer built on Arweave’s permanent storage. \n\n Visit [hyperbeam.ar.io](https://hyperbeam.ar.io/) to learn more. ![Difference between AO-Core and HyperBEAM](https://video.twimg.com/amplify_video/1965430026222055424/vid/avc1/1290x720/cigOhWe6WrnJ5RBn.mp4?tag=14)",
     "tags": [
-       "ao", 
-       "hyperBEAM", 
-       "node"
+      "ao",
+      "hyperBEAM",
+      "node"
     ]
   },
   {
     "question": "How can I join the permaweb community?",
     "answer": "The permaweb, powered by Arweave and AO Computer, is free to explore and use. You can interact with countless permanent websites and decentralized applications already built on the network.\n\n If you’d like to get involved as a developer or contributor, start by joining one of the many active global communities, such as [Arweave India](https://x.com/arweaveindia), [Arweave Philippines](https://x.com/arweaveph), [Arweave Africa](https://x.com/ArweaveAfrica), or [Arweave Japan](https://x.com/arweavejp).\n\nYou can also get support in project-specific Discords, like those of the [AO development team](discord.gg/dYXtHwc9dc) and [AR.IO](https://discord.com/invite/HGG52EtTc2). Introduce yourself, ask questions, and start experimenting. You’ll quickly find your way in the permaweb ecosystem.",
     "tags": [
-       "arweave", 
-       "ao", 
-       "permaweb", 
-       "community"
+      "arweave",
+      "ao",
+      "permaweb",
+      "community"
     ]
   },
   {
     "question": "How much does it cost to store data on Arweave?",
     "answer": "Storing data on Arweave requires a one-time payment that covers approximately 200 years of storage, based on a conservative estimate of future storage costs. In practice, your data is likely to remain stored for much longer. \n\n When you upload data to Arweave, your payment is split into two parts:\n- A small, instant fee paid to the miner who processes your transaction.\n- The majority goes into Arweave's endowment fund, which ensures long-term storage.\n\nThe actual price depends on several factors:\n- Size of the data being stored\n- Current network demand\n- AR token price\n- Current storage costs\n\nAs storage technology improves and costs decrease (following the Kryder+ Rate), your data may remain stored for even longer than the initial estimate.\n\nFor users who prefer not to use cryptocurrency directly, services like ArDrive allow alternative payment methods, including credit cards or other cryptocurrencies such as ETH and SOL. ![Arweave's permanent storage 101](https://arweave.net/21LOS64x0iSklsm_Z5re2LOxQ42ij7IEs9Z8DzPHoLY)",
     "tags": [
-      "arweave", 
-      "storage", 
+      "arweave",
+      "storage",
       "crypto"
     ]
   },
@@ -459,7 +459,7 @@
     "question": "Does AO support smart contracts?",
     "answer": "Yes, AO fully supports smart contracts, but they work differently than on platforms like Ethereum. In AO, smart contracts are called processes.\n\nThese processes:\n- Hold state\n- Receive messages\n- Have handler functions for different interactions\n\nUnlike traditional smart contracts, AO processes don't rely on global state or consensus from all nodes. Each process runs independently, enabling massive parallelism and scalability.\n\nAO smart contracts also offer powerful capabilities:\n- They can wake themselves up (self-scheduling)\n- You can set timers or triggers for future execution\n- They integrate directly with HTTP as a native extension of the web\n- They're especially well-suited for AI agents and time-sensitive logic\n\nDevelopers typically use AOS, AO’s development environment, to build, deploy, and interact with these processes. ![AO Processes](https://video.twimg.com/amplify_video/1919443044786372608/vid/avc1/1920x1080/TgfiaMI0wo0chfWc.mp4?tag=16)",
     "tags": [
-      "ao", 
+      "ao",
       "smart contracts",
       "processes"
     ]
@@ -468,8 +468,8 @@
     "question": "Can you estimate the cost of data storage on Arweave?",
     "answer": "Data on Arweave is stored permanently with a one-time payment that covers approximately 200 years of storage. This is a conservative estimate, and the duration may increase as storage costs decrease over time.\n\nTo estimate current Arweave storage costs, you can use tools like:\n- [ar-fees.arweave.net](https://ar-fees.arweave.net/) – a simple calculator for Arweave upload fees\n- [prices.ardrive.io](https://prices.ardrive.io/) – ArDrive's pricing tool for storage estimates\n\nThese tools help calculate the upfront cost based on file size and current network conditions. ![Arweave's permanent storage 101](https://arweave.net/21LOS64x0iSklsm_Z5re2LOxQ42ij7IEs9Z8DzPHoLY)",
     "tags": [
-      "arweave", 
-      "storage", 
+      "arweave",
+      "storage",
       "fees"
     ]
   },
@@ -477,45 +477,45 @@
     "question": "What is the latest Arweave version?",
     "answer": "Arweave is currently running version 2.9.5. You can see the full release notes on the [ArweaveTeam GitHub repository](https://github.com/ArweaveTeam/arweave/releases).",
     "tags": [
-      "arweave", 
-      "protocol", 
+      "arweave",
+      "protocol",
       "version"
     ]
   },
   {
-  "question": "What is the latest version of HyperBEAM?",
-  "answer": "HyperBEAM is currently running on Milestone 3 Beta 3. You can see the full release notes on the [HyperBEAM GitHub repository](https://github.com/permaweb/HyperBEAM/releases).",
-  "tags": [
-      "AO", 
-      "HyperBEAM", 
+    "question": "What is the latest version of HyperBEAM?",
+    "answer": "HyperBEAM is currently running on Milestone 3 Beta 3. You can see the full release notes on the [HyperBEAM GitHub repository](https://github.com/permaweb/HyperBEAM/releases).",
+    "tags": [
+      "AO",
+      "HyperBEAM",
       "Version"
     ]
   },
   {
-  "question": "How can I get the latest version of AO-Core?",
-  "answer": "To get the latest version of AO-Core, check the [ao-core-libs GitHub repository](https://github.com/permaweb/ao-core-libs) and install the most recent build of the @permaweb/ao-core-libs SDK via npm or yarn.",
-  "tags": [
+    "question": "How can I get the latest version of AO-Core?",
+    "answer": "To get the latest version of AO-Core, check the [ao-core-libs GitHub repository](https://github.com/permaweb/ao-core-libs) and install the most recent build of the @permaweb/ao-core-libs SDK via npm or yarn.",
+    "tags": [
       "AO",
       "AO-Core",
       "Version"
     ]
   },
   {
-  "question": "How can I get the latest version of AOS?",
-  "answer": "The current AOS release is 2.0.4 and the Client version is 2.0.6. To make sure you’re up to date, check the [AOS GitHub repository](https://github.com/permaweb/aos) for the most recent build and installation instructions.",
-  "tags": [
+    "question": "How can I get the latest version of AOS?",
+    "answer": "The current AOS release is 2.0.4 and the Client version is 2.0.6. To make sure you’re up to date, check the [AOS GitHub repository](https://github.com/permaweb/aos) for the most recent build and installation instructions.",
+    "tags": [
       "AO",
       "AOS",
       "Version"
     ]
   },
-{
-  "question": "How can I get the latest version of AOConnect?",
-  "answer": "To get the latest version of AOConnect, check the [AOConnect GitHub repository](https://github.com/permaweb/ao/tree/main/connect) for the most recent build and installation instructions.",
-  "tags": [
+  {
+    "question": "How can I get the latest version of AOConnect?",
+    "answer": "To get the latest version of AOConnect, check the [AOConnect GitHub repository](https://github.com/permaweb/ao/tree/main/connect) for the most recent build and installation instructions.",
+    "tags": [
       "AO",
       "AOConnect",
       "Version"
     ]
-}
+  }
 ]
