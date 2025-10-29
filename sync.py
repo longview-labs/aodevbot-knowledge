@@ -23,13 +23,15 @@ class WeaviateSyncer:
         )
 
     def ensure_collection(self, name: str, properties: List[Property]):
-        try:
-            self.client.collections.get(name)
+        if self.client.collections.exists(name):
             logging.info(f"Collection '{name}' already exists")
-        except weaviate.exceptions.UnexpectedStatusCodeException:
+            return
+        else:
             self.client.collections.create(
                 name=name,
-                vectorizer_config=Configure.Vectorizer.text2vec_openai(),
+                vector_config=Configure.Vectors.text2vec_openai(
+                    model="text-embedding-3-small"
+                ),
                 properties=properties
             )
             logging.info(f"Created collection '{name}'")
