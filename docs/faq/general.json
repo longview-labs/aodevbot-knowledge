@@ -517,5 +517,115 @@
       "AOConnect",
       "Version"
     ]
+  },
+  {
+    "question": "What are the foundational concepts of AO-Core?",
+    "answer": "There are two fundamental components in AO-Core: hashpaths and attestations. \n\n Hashpaths are a way of referencing the state of a program after a series of inputs, while attestations offer cryptographic assurances about data found in a certain location. \n\n This interview with Sam Williams goes deeper into the foundational concepts of AO-Core. ![Ao Core’s Foundational Concepts](https://phdrsq5jqclbpdtguknlbbjlna2qha7eemsqd4kjp76n4yhzeuzq.arweave.net/eccZQ6mAlheOZqKasIUraDUDg-QjJQHxSX_83mD5JTM)",
+    "tags": [
+      "ao", 
+      "ao-core", 
+      "hashpaths",
+      "attestations"
+    ]  
+  },
+  {
+    "question": "How does AO-Core improve the ability to understand and reconstruct history?",
+    "answer": "AO-Core builds on the idea that decentralizing data gets you most of the way to decentralizing computation. Because Arweave acts as a peer-to-peer gossip network that replicates data, many machines can independently reproduce the same state transitions with confidence. AO-Core takes the raw capability already latent inside Arweave and turns it into a way to capture all messages and program activity. \n\n Arweave and AO inventor Sam Williams goes deeper into the concept in this video. ![Arweave and AO](https://frovstnqahreyt37vw5gyye7qsho2x2zdm5pxu2elqkmowsz5upa.arweave.net/LF1ZTbAB4kxPf626bGCfhI7tX1kbOvvTRFwUx1pZ7R4)",
+    "tags": [
+      "ao", 
+      "ao-core", 
+      "Arweave"
+    ]
+  },
+  {
+    "question": "How does AO-Core bring utility to Arweave?",
+    "answer": " All forms of computation on AO can be addressed, attested, and given security guarantees through a methodology that could, in principle, be applied across the internet. AO-Core acts as a bundler for computation, settling outputs on Arweave to ensure permanent storage. \n\n Sam Williams reflects on the utility that AO-Core brings to Arweave in this video. ![Bundling for the internet](https://kcbpx76lklhqupjr4olrknertmg2wx3xy7l5tqbstxejfug7xyta.arweave.net/UIL7_8tSzwo9MeOXFTSRmw2rX3fH19nAMp3IktDfviY)",
+    "tags": [
+      "ao", 
+      "ao-core", 
+      "arweave",
+      "bundling"
+    ]
+  },
+  {
+    "question": "Why does HyperBEAM exist fundamentally?",
+    "answer": "Using the Device framework, AO-Core addresses the universal space of all types of compute, letting users plug in any virtual machine type. HyperBEAM offers an operating system to run these devices in. \n\n Sam Williams offers more insight into HyperBEAM and the concept of adding new Devices in this short explainer video. ![HyperBEAM: Operating system for Devices](https://ztduy2phyifqbp7co5jvwu32teoaihnq4ao7okreoujcw5a6cm3q.arweave.net/zMdMaefCCwC_4ndTW1N6mRwEHbDgHfcqJHUSK3QeEzc)",
+    "tags": [
+      "ao", 
+      "HyperBEAM", 
+      "ao-core"
+    ]
+  },
+  {
+    "question": "What tools do you get in HyperBEAM’s design space?",
+    "answer": "HyperBEAM offers a variety of tools for a wide variety of functions, with 30 devices included in the base package, although anyone can add their own devices for increased composability. \n\n You can think of HyperBEAM like a general purpose kitchen, allowing you to cook many different things, using different utensils. Instead of food, HyperBEAM offers a wide design space for verifiable decentralized compute.  \n\n Sam Williams explores the kitchen analogy in further detail in this 2-part video series. ![HyperBEAM: The Kitchen Analogy Part 1](https://p4tm7ms4zy2bqcxqrar4fgzm65izak46lplvhiktx74kvx3neniq.arweave.net/fybPslzONBgK8Igjwpss91GQK55b11OhU7_4qt9tI1E) ![HyperBEAM: The Kitchen Analogy Part 2](https://oleji5edvdbgmkjqyjoneplaqddggk5ndn4domcgfenyxitr26pa.arweave.net/csiUdIOowmYpMMJc0j1ggMZjK60beDcwRikbi6Jx154)",
+    "tags": [
+      "ao", 
+      "HyperBEAM", 
+      "devices"
+    ]
+  },
+  {
+    "question": "What’s the incentive for someone to build a device?",
+    "answer": "With a few lines of code, device builders get access to a wide variety of hardware, essentially avoiding the expensive procedure of building a customized blockchain. \n\n Devices offer plug and play composability to builders in the same way an app store provides numerous applications for a diverse range of purposes. \n\n Sam Williams explains the concept in this video interview. ![Design Space and Incentives for Building Devices](https://5c4leemq6hjw65q3ouppcpc4cx2xqkzwwigxogcki6cmlz7ahjba.arweave.net/6LiyEZDx0292G3Ue8TxcFfV4KzayDXcYSkeExefgOkI)",
+    "tags": [
+      "ao", 
+      "devices", 
+      "builder incentives"
+    ]
+  },
+  {
+    "question": "Do AO builders need to develop their own devices? ",
+    "answer": "Most developers building on AO should not need to develop new devices. They can easily stack up devices that already exist to achieve their specific goal. \n\n Sam Williams offers more insight into the easy-to-use tooling available on AO in this video. ![Configuration over Coding](https://2as5wu5qdt4ebbjd3wz4udlldiopk2h6zna3yqx6k3lyotucv5da.arweave.net/0CXbU7Ac-ECFI92zyg1rGhz1aP7LQbxC_lbXh06Cr0Y)",
+    "tags": [
+      "ao", 
+      "device", 
+      "HyperBEAM"
+    ]
+  },
+  {
+    "question": "Why does HyperBEAM use device stacking?",
+    "answer": "Device stacking enables AO Computer to work in a highly flexible manner. Unlike in a monolithic blockchain environment, where a feature change would involve a protocol-wide update, device stacking offers developers a streamlined way to implement the precise functionality they require. \n\n Watch Sam Williams explain how the concept of device stacking came to him while working on the Compute Unit. ![Origin of Stack Design](https://56yyvuzbqiqe5ntc3johogi3blnz5kxpcpcqunxizl7vu2vs6uwq.arweave.net/77GK0yGCIE62YtpcdxkbCtuequ8TxQo26Mr_Wmqy9S0)",
+    "tags": [
+      "ao", 
+      "HyperBEAM", 
+      "device"
+      ]
+  },
+  {
+    "question": "How does the payment relay work on HyperBEAM?",
+    "answer": "There is a collection of devices for the payment relay within HyperBEAM. \n\n Unlike in Legacynet, where the Scheduling Unit (SU), Messaging Unit (MU) and Compute Unit (CU) operated separately, HyperBEAM allows users to run just one piece of software which then loads other required units. This offers a way for application builders to sell access to hardware and services in whatever form is most appropriate for their use case, such as GPU compute or storage. \n\n Sam Williams goes into further detail in this video. ![Payment Relays as Modular Devices](https://yla52clrqzfwyzb45pninkwrins3hu4xia3oykcnpveei7ffxhoa.arweave.net/wsHdCXGGS2xkPOvahqrRQ2Wz05dANuwoTX1IRHyludw)",
+    "tags": [
+      "ao", 
+      "http", 
+      "device"
+    ]
+  },
+  {
+    "question": "Why does AO abstract virtual machines?",
+    "answer": "Virtual machines are very opinionated. For example, the Ethereum Virtual Machine (EVM) and the Solana Virtual Machine (SVM) both have a global shared memory space, which may not be useful for certain circumstances. \n\n Abstracting them into devices allows them to be swapped out by users to match their use case. This allows for a meta-machine that accommodates every type of computation. \n\n Sam Williams provides examples of how this abstraction can be applied on AO in this video.  ![Why AO Abstracts Virtual Machines](https://g65ybwbv3zsv2vk6yy3crzqyb7c4xx27landrtasqihfzemov4aq.arweave.net/N7uA2DXeZV1VXsY2KOYYD8XL319YGjjMEoIOXJGOrwE)",
+    "tags": [
+      "virtual machine", 
+      "ao", 
+      "HyperBEAM"
+    ]
+  },
+  {
+    "question": "How can AO augment the experience for EVM builders?",
+    "answer": "Instead of starting from scratch and bootstrapping an entire network, EVM builders can make use of an EVM device within HyperBEAM, while also gaining access to all the other devices. The process of building a blockchain turns into a process of configuration instead. \n\n In addition, AO offers EVM builders the opportunity to leverage HTTP message signing as a simple device integration. \n\n Sam Williams offers more insight into the profound benefits of using HTTP signed messages as a transaction standard in this video. ![AO Doesn’t Replace Chains - It Augments Them](https://tle4lhtsmhisvo4fknayey7e5qaxsn5j4n44pvz732q4zvbtybla.arweave.net/msnFnnJh0Sq7hVNBgmPk7AF5N6njecfXP96hzNQzwFY)",
+    "tags": [
+      "ao", 
+      "EVM", 
+      "http"
+    ]
+  },
+  {
+    "question": "What does AO-Core enable for internet users?",
+    "answer": "AO-Core gives a new ability to the internet which is to grant users verifiable, immutable guarantees when they use a piece of software. It doesn’t bring friction by adding new layers on top of a user’s workflow, but layers into existing systems instead. This allows it to spread everywhere quickly, giving users worldwide a trustworthy cyberspace. \n\n Sam Williams explains the concept of AO as trust layer for the internet in this short video. ![AO as a Trust Layer for the Internet](https://74tsxyvsobkcrtzn6f345woneifjusd6lacefu3ewsdwn7ajgdta.arweave.net/_ycr4rJwVCjPLfF3ztnNIgqaSH5YBELTZLSHZvwJMOY)",
+    "tags": [
+      "ao", 
+      "security", 
+      "cyberspace"
+    ]
   }
 ]
