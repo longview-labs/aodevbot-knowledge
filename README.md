@@ -69,7 +69,7 @@ Tags help categorize and filter content. They improve search relevance and allow
 ## DevBot Knowledge Tips & Guidelines:
 - Content supports **Markdown**!  
    - You can include images: `![alt text](image-url)` (always use descriptive alt text).  
-   - You can add links to videos or other resources.  
+   - You can add links to videos or other resources. When including videos, use the format: `[Video - Title](video-url)` to ensure proper rendering on the devbot.
    - Use lists, code blocks, and other Markdown features for clarity.
 - **Keep answers short and focused** (1–3 paragraphs, ideally 100–300 tokens).
 - **Use clear language** — prioritize helpfulness and accuracy.
