@@ -10,7 +10,7 @@
   },
   {
     "question": "What does \"AO\" stand for?",
-    "answer": "AO stands for Actor-Oriented. AO is a decentralized computer network built on top of Arweave that enables developers to create scalable, permanent applications. [Video explaining what AO stands for](https://video.twimg.com/amplify_video/1935699115926761472/vid/avc1/1280x720/Yy8kie8Y5_WS5Atm.mp4?tag=14)",
+    "answer": "AO stands for Actor-Oriented. AO is a decentralized computer network built on top of Arweave that enables developers to create scalable, permanent applications. [Video - what AO stands for](https://video.twimg.com/amplify_video/1935699115926761472/vid/avc1/1280x720/Yy8kie8Y5_WS5Atm.mp4?tag=14)",
     "tags": [
       "ao",
       "protocol",
@@ -56,7 +56,7 @@
   },
   {
     "question": "What is holographic state on AO?",
-    "answer": "On AO, every single interaction with an AO process is stored as a transaction on Arweave. If you have a process and all of its interaction history, these can be used to “reconstruct” the current state of a process.\n\nHolographic state refers to the concept that no global shared state of processes is stored on AO. Instead, AO nodes compute state on demand based on the history of a process. Since AO processes are deterministic, the current state is essentially a \"projection\" of all processed messages over time (like a hologram). \n\nAs there is no global shared state system, processes are concerned with their own state and interact with each other through a message passing system. This enables true parallel execution of processes on AO. [Video about holographic state on AO](https://video.twimg.com/amplify_video/1930640133902282752/vid/avc1/1280x720/KnwbT2Vyqh5jLMly.mp4?tag=14)",
+    "answer": "On AO, every single interaction with an AO process is stored as a transaction on Arweave. If you have a process and all of its interaction history, these can be used to “reconstruct” the current state of a process.\n\nHolographic state refers to the concept that no global shared state of processes is stored on AO. Instead, AO nodes compute state on demand based on the history of a process. Since AO processes are deterministic, the current state is essentially a \"projection\" of all processed messages over time (like a hologram). \n\nAs there is no global shared state system, processes are concerned with their own state and interact with each other through a message passing system. This enables true parallel execution of processes on AO. [Video - Holographic state on AO](https://video.twimg.com/amplify_video/1930640133902282752/vid/avc1/1280x720/KnwbT2Vyqh5jLMly.mp4?tag=14)",
     "tags": [
       "ao",
       "holographic state"
@@ -141,7 +141,7 @@
   },
   {
     "question": "What is the $AO token?",
-    "answer": "$AO is the native token of AO Computer, a decentralized compute platform built on top of Arweave. Although computation on AO is currently subsidised, $AO will eventually be used to pay for compute costs and attestations from AO nodes. \n$AO also aims to incentivize and secure decentralized computing on AO Computer, and currently is distributed to $AR holders and users which have bridged specified assets to AO. Not financial advice. [Video about AO's tokenomics, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1915487034493251585/vid/avc1/1920x1080/e-1POl7skqaA_6PA.mp4?tag=16)",
+    "answer": "$AO is the native token of AO Computer, a decentralized compute platform built on top of Arweave. Although computation on AO is currently subsidised, $AO will eventually be used to pay for compute costs and attestations from AO nodes. \n$AO also aims to incentivize and secure decentralized computing on AO Computer, and currently is distributed to $AR holders and users which have bridged specified assets to AO. Not financial advice. [Video - AO's tokenomics, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1915487034493251585/vid/avc1/1920x1080/e-1POl7skqaA_6PA.mp4?tag=16)",
     "tags": [
       "$AO",
       "token",
@@ -159,7 +159,7 @@
   },
   {
     "question": "What is a fair launch token?",
-    "answer": "On AO, “fair launch” refers to tokens released to the general public, with no pre-sale available to investors or private companies. \n$AO itself is considered a “fair launch” token, with tokenomics modelled after Bitcoin, and the option for anyone holding $AR or bridging assets to earn $AO emissions. \nUsers can also delegate their tokens to projects built on AO independently, or by proxy through the Permaweb Index ($PI). \nNot financial advice. [Video about AO token yield delegation, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/ext_tw_video/1904471841915523072/pu/vid/avc1/1280x720/ZKxlBi8IWadLqQZo.mp4?tag=12)",
+    "answer": "On AO, “fair launch” refers to tokens released to the general public, with no pre-sale available to investors or private companies. \n$AO itself is considered a “fair launch” token, with tokenomics modelled after Bitcoin, and the option for anyone holding $AR or bridging assets to earn $AO emissions. \nUsers can also delegate their tokens to projects built on AO independently, or by proxy through the Permaweb Index ($PI). \nNot financial advice. [Video - AO token yield delegation, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/ext_tw_video/1904471841915523072/pu/vid/avc1/1280x720/ZKxlBi8IWadLqQZo.mp4?tag=12)",
     "tags": [
       "ao",
       "fair launch",
@@ -205,7 +205,7 @@
   },
   {
     "question": "Is AO a blockchain?",
-    "answer": "No. AO is not a blockchain. It’s a decentralized computer that runs computations using independent processes and message passing instead of global consensus. However, it uses cryptographic tools like hashpaths and HTTP signed messages to verify computation. [Video of an animation comparing how scaling is handled on AO & traditional blockchains](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
+    "answer": "No. AO is not a blockchain. It’s a decentralized computer that runs computations using independent processes and message passing instead of global consensus. However, it uses cryptographic tools like hashpaths and HTTP signed messages to verify computation. [Video - An animation comparing how scaling is handled on AO & traditional blockchains](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
     "tags": [
       "ao",
       "blockchain",
@@ -214,7 +214,7 @@
   },
   {
     "question": "What are AO devices?",
-    "answer": "Devices are modular execution units in AO. Each device defines a way to interpret and process messages. Examples include ~wasm64@1.0 for running WebAssembly, ~relay@1.0 for networking, and ~meta@1.0 for configuring nodes. Devices make AO highly flexible and composable. [Video about what AO devices are, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1956022267932004352/vid/avc1/1920x1080/4aXZQPiTYxJYiwAA.mp4)",
+    "answer": "Devices are modular execution units in AO. Each device defines a way to interpret and process messages. Examples include ~wasm64@1.0 for running WebAssembly, ~relay@1.0 for networking, and ~meta@1.0 for configuring nodes. Devices make AO highly flexible and composable. [Video - What are AO devices, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1956022267932004352/vid/avc1/1920x1080/4aXZQPiTYxJYiwAA.mp4)",
     "tags": [
       "devices",
       "execution",
@@ -223,7 +223,7 @@
   },
   {
     "question": "What is a Trusted Execution Environment (TEE) on AO?",
-    "answer": "A TEE is a secure hardware zone where computations can run privately and verifiably. AO supports TEE execution to allow nodes to prove that they are executing code correctly, even on untrusted hardware. The first supported TEE is AMD SEV-SNP. [Video about TEE on AO, explained by Tom Wilson, CTO of Forward Research](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
+    "answer": "A TEE is a secure hardware zone where computations can run privately and verifiably. AO supports TEE execution to allow nodes to prove that they are executing code correctly, even on untrusted hardware. The first supported TEE is AMD SEV-SNP. [Video - TEE on AO, explained by Tom Wilson, CTO of Forward Research](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
     "tags": [
       "TEE",
       "security",
@@ -232,7 +232,7 @@
   },
   {
     "question": "How is AO different from smart contract platforms?",
-    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web. [Video about the core problem AO solves, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1949907452377649153/vid/avc1/1920x1080/JYdWBo8BlQys-Iy9.mp4)",
+    "answer": "Unlike traditional smart contract platforms like Ethereum, AO does not use a global state or require all nodes to agree. Each process runs independently, enabling internet-scale parallelism. AO integrates directly with HTTP, making it a native extension of the web. [Video - The core problem AO solves, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1949907452377649153/vid/avc1/1920x1080/JYdWBo8BlQys-Iy9.mp4)",
     "tags": [
       "smart contracts",
       "comparison",
@@ -250,7 +250,7 @@
   },
   {
     "question": "What are messages in AO?",
-    "answer": "Messages are the core unit of computation in AO. Every message contains data and instructions and may produce more messages when executed. They are passed between processes and devices, forming chains of computation similar to function calls in programming. [Video about messages on AO, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4)",
+    "answer": "Messages are the core unit of computation in AO. Every message contains data and instructions and may produce more messages when executed. They are passed between processes and devices, forming chains of computation similar to function calls in programming. [Video - Messages on AO, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1920821058233356288/vid/avc1/1920x1080/rQ2PU3zeqIT4XWhw.mp4)",
     "tags": [
       "messages",
       "core concepts",
@@ -259,7 +259,7 @@
   },
   {
     "question": "What is a process in AO?",
-    "answer": "A process is a persistent execution unit in AO that maintains its own state and hashpath. It can receive messages, return results, and be interacted with by multiple users. Processes are like smart contracts, but they run independently and scale in parallel. [Video of an animation comparing how scaling is handled on AO & traditional blockchains](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
+    "answer": "A process is a persistent execution unit in AO that maintains its own state and hashpath. It can receive messages, return results, and be interacted with by multiple users. Processes are like smart contracts, but they run independently and scale in parallel. [Video - An animation comparing how scaling is handled on AO & traditional blockchains](https://video.twimg.com/ext_tw_video/1842218229563019264/pu/vid/avc1/1280x720/mGexYXVd_rMOAxfb.mp4?tag=12)",
     "tags": [
       "process",
       "execution",
@@ -277,7 +277,7 @@
   },
   {
     "question": "How does AO handle state?",
-    "answer": "AO does not use a global state. Each process maintains its own local state through a sequence of messages and hashpaths. State transitions are verifiable and can be stored permanently on Arweave for auditability and persistence. [Video about what holographic state is on AO](https://video.twimg.com/amplify_video/1930640133902282752/vid/avc1/1280x720/KnwbT2Vyqh5jLMly.mp4?tag=14)",
+    "answer": "AO does not use a global state. Each process maintains its own local state through a sequence of messages and hashpaths. State transitions are verifiable and can be stored permanently on Arweave for auditability and persistence. [Video - What is holographic state on AO](https://video.twimg.com/amplify_video/1930640133902282752/vid/avc1/1280x720/KnwbT2Vyqh5jLMly.mp4?tag=14)",
     "tags": [
       "state",
       "architecture",
@@ -303,7 +303,7 @@
   },
   {
     "question": "Can I deploy private or permissioned processes on AO?",
-    "answer": "Yes. Using a Trusted Execution Environment (TEE), you can create processes that validate and execute privately. You can also use devices like ~faff@1.0 to restrict access to specific wallets. [Video about TEE on AO, explained by Tom Wilson, CTO of Forward Research](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
+    "answer": "Yes. Using a Trusted Execution Environment (TEE), you can create processes that validate and execute privately. You can also use devices like ~faff@1.0 to restrict access to specific wallets. [Video - TEE on AO, explained by Tom Wilson, CTO of Forward Research](https://video.twimg.com/ext_tw_video/1909536236529741824/pu/vid/avc1/1280x720/XAqnj6GTfW3iHVR3.mp4?tag=12)",
     "tags": [
       "privacy",
       "permissions",
@@ -312,7 +312,7 @@
   },
   {
     "question": "Does AO have consensus?",
-    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination. [Video about consensus on AO, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1952453125929123840/vid/avc1/1280x720/d8SEP-FV0R2uF3cI.mp4?tag=14)",
+    "answer": "AO does not use global consensus. Instead, each process generates verifiable computation using hashpaths and HTTP signed messages. Multiple nodes can attest to a state, enabling trust without coordination. [Video - Consensus on AO, explained by Sam Williams, creator of Arweave & AO](https://video.twimg.com/amplify_video/1952453125929123840/vid/avc1/1280x720/d8SEP-FV0R2uF3cI.mp4?tag=14)",
     "tags": [
       "consensus",
       "verification",
@@ -558,7 +558,7 @@
   },
   {
     "question": "What tools do you get in HyperBEAM’s design space?",
-    "answer": "HyperBEAM offers a variety of tools for a wide variety of functions, with 30 devices included in the base package, although anyone can add their own devices for increased composability. \n\n You can think of HyperBEAM like a general purpose kitchen, allowing you to cook many different things, using different utensils. Instead of food, HyperBEAM offers a wide design space for verifiable decentralized compute.  \n\n Sam Williams explores the kitchen analogy in further detail in this 2-part video series. ![HyperBEAM: The Kitchen Analogy Part 1](https://p4tm7ms4zy2bqcxqrar4fgzm65izak46lplvhiktx74kvx3neniq.arweave.net/fybPslzONBgK8Igjwpss91GQK55b11OhU7_4qt9tI1E) ![HyperBEAM: The Kitchen Analogy Part 2](https://oleji5edvdbgmkjqyjoneplaqddggk5ndn4domcgfenyxitr26pa.arweave.net/csiUdIOowmYpMMJc0j1ggMZjK60beDcwRikbi6Jx154)",
+    "answer": "HyperBEAM offers a variety of tools for a wide variety of functions, with 30 devices included in the base package, although anyone can add their own devices for increased composability. \n\n You can think of HyperBEAM like a general purpose kitchen, allowing you to cook many different things, using different utensils. Instead of food, HyperBEAM offers a wide design space for verifiable decentralized compute.  \n\n Sam Williams explores the kitchen analogy in further detail in this 2-part video series. [Video - HyperBEAM: The Kitchen Analogy Part 1](https://p4tm7ms4zy2bqcxqrar4fgzm65izak46lplvhiktx74kvx3neniq.arweave.net/fybPslzONBgK8Igjwpss91GQK55b11OhU7_4qt9tI1E) [Video - HyperBEAM: The Kitchen Analogy Part 2](https://oleji5edvdbgmkjqyjoneplaqddggk5ndn4domcgfenyxitr26pa.arweave.net/csiUdIOowmYpMMJc0j1ggMZjK60beDcwRikbi6Jx154)",
     "tags": [
       "ao", 
       "HyperBEAM", 
@@ -567,7 +567,7 @@
   },
   {
     "question": "What’s the incentive for someone to build a device?",
-    "answer": "With a few lines of code, device builders get access to a wide variety of hardware, essentially avoiding the expensive procedure of building a customized blockchain. \n\n Devices offer plug and play composability to builders in the same way an app store provides numerous applications for a diverse range of purposes. \n\n Sam Williams explains the concept in this video interview. ![Design Space and Incentives for Building Devices](https://5c4leemq6hjw65q3ouppcpc4cx2xqkzwwigxogcki6cmlz7ahjba.arweave.net/6LiyEZDx0292G3Ue8TxcFfV4KzayDXcYSkeExefgOkI)",
+    "answer": "With a few lines of code, device builders get access to a wide variety of hardware, essentially avoiding the expensive procedure of building a customized blockchain. \n\n Devices offer plug and play composability to builders in the same way an app store provides numerous applications for a diverse range of purposes. \n\n Sam Williams explains the concept in this video interview. [Video - Design Space and Incentives for Building Devices](https://5c4leemq6hjw65q3ouppcpc4cx2xqkzwwigxogcki6cmlz7ahjba.arweave.net/6LiyEZDx0292G3Ue8TxcFfV4KzayDXcYSkeExefgOkI)",
     "tags": [
       "ao", 
       "devices", 
@@ -576,7 +576,7 @@
   },
   {
     "question": "Do AO builders need to develop their own devices? ",
-    "answer": "Most developers building on AO should not need to develop new devices. They can easily stack up devices that already exist to achieve their specific goal. \n\n Sam Williams offers more insight into the easy-to-use tooling available on AO in this video. ![Configuration over Coding](https://2as5wu5qdt4ebbjd3wz4udlldiopk2h6zna3yqx6k3lyotucv5da.arweave.net/0CXbU7Ac-ECFI92zyg1rGhz1aP7LQbxC_lbXh06Cr0Y)",
+    "answer": "Most developers building on AO should not need to develop new devices. They can easily stack up devices that already exist to achieve their specific goal. \n\n Sam Williams offers more insight into the easy-to-use tooling available on AO in this video. [Video - Configuration over Coding](https://2as5wu5qdt4ebbjd3wz4udlldiopk2h6zna3yqx6k3lyotucv5da.arweave.net/0CXbU7Ac-ECFI92zyg1rGhz1aP7LQbxC_lbXh06Cr0Y)",
     "tags": [
       "ao", 
       "device", 
@@ -585,7 +585,7 @@
   },
   {
     "question": "Why does HyperBEAM use device stacking?",
-    "answer": "Device stacking enables AO Computer to work in a highly flexible manner. Unlike in a monolithic blockchain environment, where a feature change would involve a protocol-wide update, device stacking offers developers a streamlined way to implement the precise functionality they require. \n\n Watch Sam Williams explain how the concept of device stacking came to him while working on the Compute Unit. ![Origin of Stack Design](https://56yyvuzbqiqe5ntc3johogi3blnz5kxpcpcqunxizl7vu2vs6uwq.arweave.net/77GK0yGCIE62YtpcdxkbCtuequ8TxQo26Mr_Wmqy9S0)",
+    "answer": "Device stacking enables AO Computer to work in a highly flexible manner. Unlike in a monolithic blockchain environment, where a feature change would involve a protocol-wide update, device stacking offers developers a streamlined way to implement the precise functionality they require. \n\n Watch Sam Williams explain how the concept of device stacking came to him while working on the Compute Unit. [Video - Origin of Stack Design](https://56yyvuzbqiqe5ntc3johogi3blnz5kxpcpcqunxizl7vu2vs6uwq.arweave.net/77GK0yGCIE62YtpcdxkbCtuequ8TxQo26Mr_Wmqy9S0)",
     "tags": [
       "ao", 
       "HyperBEAM", 
@@ -594,7 +594,7 @@
   },
   {
     "question": "How does the payment relay work on HyperBEAM?",
-    "answer": "There is a collection of devices for the payment relay within HyperBEAM. \n\n Unlike in Legacynet, where the Scheduling Unit (SU), Messaging Unit (MU) and Compute Unit (CU) operated separately, HyperBEAM allows users to run just one piece of software which then loads other required units. This offers a way for application builders to sell access to hardware and services in whatever form is most appropriate for their use case, such as GPU compute or storage. \n\n Sam Williams goes into further detail in this video. ![Payment Relays as Modular Devices](https://yla52clrqzfwyzb45pninkwrins3hu4xia3oykcnpveei7ffxhoa.arweave.net/wsHdCXGGS2xkPOvahqrRQ2Wz05dANuwoTX1IRHyludw)",
+    "answer": "There is a collection of devices for the payment relay within HyperBEAM. \n\n Unlike in Legacynet, where the Scheduling Unit (SU), Messaging Unit (MU) and Compute Unit (CU) operated separately, HyperBEAM allows users to run just one piece of software which then loads other required units. This offers a way for application builders to sell access to hardware and services in whatever form is most appropriate for their use case, such as GPU compute or storage. \n\n Sam Williams goes into further detail in this video. [Video - Payment Relays as Modular Devices](https://yla52clrqzfwyzb45pninkwrins3hu4xia3oykcnpveei7ffxhoa.arweave.net/wsHdCXGGS2xkPOvahqrRQ2Wz05dANuwoTX1IRHyludw)",
     "tags": [
       "ao", 
       "http", 
@@ -603,7 +603,7 @@
   },
   {
     "question": "Why does AO abstract virtual machines?",
-    "answer": "Virtual machines are very opinionated. For example, the Ethereum Virtual Machine (EVM) and the Solana Virtual Machine (SVM) both have a global shared memory space, which may not be useful for certain circumstances. \n\n Abstracting them into devices allows them to be swapped out by users to match their use case. This allows for a meta-machine that accommodates every type of computation. \n\n Sam Williams provides examples of how this abstraction can be applied on AO in this video.  ![Why AO Abstracts Virtual Machines](https://g65ybwbv3zsv2vk6yy3crzqyb7c4xx27landrtasqihfzemov4aq.arweave.net/N7uA2DXeZV1VXsY2KOYYD8XL319YGjjMEoIOXJGOrwE)",
+    "answer": "Virtual machines are very opinionated. For example, the Ethereum Virtual Machine (EVM) and the Solana Virtual Machine (SVM) both have a global shared memory space, which may not be useful for certain circumstances. \n\n Abstracting them into devices allows them to be swapped out by users to match their use case. This allows for a meta-machine that accommodates every type of computation. \n\n Sam Williams provides examples of how this abstraction can be applied on AO in this video.  [Video - Why AO Abstracts Virtual Machines](https://g65ybwbv3zsv2vk6yy3crzqyb7c4xx27landrtasqihfzemov4aq.arweave.net/N7uA2DXeZV1VXsY2KOYYD8XL319YGjjMEoIOXJGOrwE)",
     "tags": [
       "virtual machine", 
       "ao", 
@@ -612,7 +612,7 @@
   },
   {
     "question": "How can AO augment the experience for EVM builders?",
-    "answer": "Instead of starting from scratch and bootstrapping an entire network, EVM builders can make use of an EVM device within HyperBEAM, while also gaining access to all the other devices. The process of building a blockchain turns into a process of configuration instead. \n\n In addition, AO offers EVM builders the opportunity to leverage HTTP message signing as a simple device integration. \n\n Sam Williams offers more insight into the profound benefits of using HTTP signed messages as a transaction standard in this video. ![AO Doesn’t Replace Chains - It Augments Them](https://tle4lhtsmhisvo4fknayey7e5qaxsn5j4n44pvz732q4zvbtybla.arweave.net/msnFnnJh0Sq7hVNBgmPk7AF5N6njecfXP96hzNQzwFY)",
+    "answer": "Instead of starting from scratch and bootstrapping an entire network, EVM builders can make use of an EVM device within HyperBEAM, while also gaining access to all the other devices. The process of building a blockchain turns into a process of configuration instead. \n\n In addition, AO offers EVM builders the opportunity to leverage HTTP message signing as a simple device integration. \n\n Sam Williams offers more insight into the profound benefits of using HTTP signed messages as a transaction standard in this video. [Video - AO Doesn't Replace Chains - It Augments Them](https://tle4lhtsmhisvo4fknayey7e5qaxsn5j4n44pvz732q4zvbtybla.arweave.net/msnFnnJh0Sq7hVNBgmPk7AF5N6njecfXP96hzNQzwFY)",
     "tags": [
       "ao", 
       "EVM", 
@@ -621,7 +621,7 @@
   },
   {
     "question": "What does AO-Core enable for internet users?",
-    "answer": "AO-Core gives a new ability to the internet which is to grant users verifiable, immutable guarantees when they use a piece of software. It doesn’t bring friction by adding new layers on top of a user’s workflow, but layers into existing systems instead. This allows it to spread everywhere quickly, giving users worldwide a trustworthy cyberspace. \n\n Sam Williams explains the concept of AO as trust layer for the internet in this short video. ![AO as a Trust Layer for the Internet](https://74tsxyvsobkcrtzn6f345woneifjusd6lacefu3ewsdwn7ajgdta.arweave.net/_ycr4rJwVCjPLfF3ztnNIgqaSH5YBELTZLSHZvwJMOY)",
+    "answer": "AO-Core gives a new ability to the internet which is to grant users verifiable, immutable guarantees when they use a piece of software. It doesn’t bring friction by adding new layers on top of a user’s workflow, but layers into existing systems instead. This allows it to spread everywhere quickly, giving users worldwide a trustworthy cyberspace. \n\n Sam Williams explains the concept of AO as trust layer for the internet in this short video. [Video - AO as a Trust Layer for the Internet](https://74tsxyvsobkcrtzn6f345woneifjusd6lacefu3ewsdwn7ajgdta.arweave.net/_ycr4rJwVCjPLfF3ztnNIgqaSH5YBELTZLSHZvwJMOY)",
     "tags": [
       "ao", 
       "security", 
