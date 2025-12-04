@@ -612,7 +612,7 @@
   },
   {
     "question": "How can AO augment the experience for EVM builders?",
-    "answer": "Instead of starting from scratch and bootstrapping an entire network, EVM builders can make use of an EVM device within HyperBEAM, while also gaining access to all the other devices. The process of building a blockchain turns into a process of configuration instead. \n\n In addition, AO offers EVM builders the opportunity to leverage HTTP message signing as a simple device integration. \n\n Sam Williams offers more insight into the profound benefits of using HTTP signed messages as a transaction standard in this video. [Video - AO Doesn't Replace Chains - It Augments Them](https://arweave.net/msnFnnJh0Sq7hVNBgmPk7AF5N6njecfXP96hzNQzwFY)",
+    "answer": "Instead of starting from scratch and bootstrapping an entire network, EVM builders can make use of an EVM device within HyperBEAM, while also gaining access to all the other devices. The process of building a blockchain turns into a process of configuration instead. \n\n In addition, AO offers EVM builders the opportunity to leverage HTTP message signing as a simple device integration. \n\n Sam Williams offers more insight into the profound benefits of using HTTP signed messages as a transaction standard in this video. [Video - AO Doesn't Replace Chains, It Augments Them](https://arweave.net/msnFnnJh0Sq7hVNBgmPk7AF5N6njecfXP96hzNQzwFY)",
     "tags": [
       "ao", 
       "EVM", 
