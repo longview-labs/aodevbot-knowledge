@@ -627,5 +627,23 @@
       "security", 
       "cyberspace"
     ]
+  },
+  {
+    "question": "How is reputation managed for AO nodes?",
+    "answer": "Reputation in AO is primarily managed through economic security mechanisms rather than traditional reputation scores. Node operators (Scheduler Units, Compute Units, and Messenger Units) must stake AO tokens as collateral in the AO-Sec Origin process. This stake represents their "skin in the game" and can be slashed (taken away) if they misbehave. \n\n The SIV sub-staking process enhances this by providing Sybil-resistant attestations. It creates a deterministic ordered set of attestors who audit other stakers' activities, making it exponentially harder for malicious actors to deceive the network as more attestors are involved. \n\n Users can specify their security requirements, including how many attestations they need for validation, allowing them to balance security needs against costs and latency. \n\n You can learn more about AO’s Network Security in section 5 of the [AO white paper](https://vpydsw3vqn6vxnhyjdbz2vl4as3htw2gxk6qamufjk5h4biipgua.arweave.net/q_A5W3WDfVu0-EjDnVV8BLZ520a6vQAyhUq6fgUIeag).",
+    "tags": [
+      "network security", 
+      "ao computer", 
+      "white paper"
+    ]
+  },
+  {
+    "question": "How do bad node operators stay in line?",
+    "answer": "Bad node operators in AO are kept in line through several mechanisms:\n\n- **Economic penalties**: The primary enforcement mechanism is slashing - if operators misbehave (failing to perform assignments, double-signing, etc.), their staked tokens can be taken away.\n- **Automatic removal**: Systems like SIV automatically remove unresponsive or non-compliant attestors from committees after preset durations.\n- **Process reassignment**: If a Scheduler Unit fails, processes can be reassigned to new operators through a market-based mechanism where processes can \"negotiate\" with potential new hosts.\n- **Trustless fallback mechanisms**: AO provides specific resolution paths for different types of faults (liveness issues, double assignments, non-publication), allowing the network to maintain integrity even when operators misbehave.\n- **Hierarchical security**: The layered security approach means that if sub-staking processes fail, they can fall back to the AO-Sec Origin process, which itself is secured by Arweave's Byzantine Fault Tolerant consensus. \n\n You can learn more about AO’s Network Security in section 5 of the [AO white paper](https://vpydsw3vqn6vxnhyjdbz2vl4as3htw2gxk6qamufjk5h4biipgua.arweave.net/q_A5W3WDfVu0-EjDnVV8BLZ520a6vQAyhUq6fgUIeag).",
+    "tags": [
+      "network security", 
+      "ao computer", 
+      "white paper"
+    ]
   }
 ]
